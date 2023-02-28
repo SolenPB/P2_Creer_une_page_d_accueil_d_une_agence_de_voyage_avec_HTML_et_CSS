@@ -1,0 +1,19 @@
+body
+{
+    font-family: 'Raleway', sans serif;
+}
+
+#logo {
+    width: 61.09px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+}
+
+h1 {
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+
+}
