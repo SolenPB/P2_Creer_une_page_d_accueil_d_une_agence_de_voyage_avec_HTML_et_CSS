@@ -25,16 +25,27 @@ nav ul {
 }
 
 nav li {
-    margin-right:67px;
+    margin-right: 67px;
 }
 
 a {
     color: black;
     text-decoration: none;
+    font-weight: 500;
 }
 
 a:hover{
     color: #0065FC;
+}
+
+nav li:hover:before {
+    content: "";
+    position: absolute;
+    width: 162px;
+    height: 2px;
+    left: 1092px;
+    top: 0px;
+    background-color: #0065FC;
 }
 /*header*/
 
@@ -45,5 +56,32 @@ h1 {
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
+}
+
+/*recherche*/
+
+#recherche {
+    display: flex;
+    margin-bottom: 40px; 
+}
+
+i {
+
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+button {
+    background-color: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0 15px 15px 0;
+    color: white;
+    font-weight: bold;
+}
+
+input::placeholder{
+    opacity: 1;
+    font-weight: 700;
 }
 
