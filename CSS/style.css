@@ -8,7 +8,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
 }
 
 nav img {
@@ -16,16 +15,23 @@ nav img {
     height: 19px;
     left: 0px;
     top: 0px;
+    padding-top: 44px;
 }
 
 nav ul {
     display: flex;
     list-style: none;
-    margin-right: 10px;
 }
 
 nav li {
     margin-right: 67px;
+    border-top: 2px solid white;
+    padding-top: 48px;
+    width: 162px;
+}
+
+li {
+    text-align: center;
 }
 
 a {
@@ -38,14 +44,8 @@ a:hover{
     color: #0065FC;
 }
 
-nav li:hover:before {
-    content: "";
-    position: absolute;
-    width: 162px;
-    height: 2px;
-    left: 1092px;
-    top: 0px;
-    background-color: #0065FC;
+li:hover{
+    border-top:1px solid #0065FC;
 }
 /*header*/
 
