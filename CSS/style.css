@@ -199,6 +199,7 @@ input {
 #logements {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     flex-wrap: wrap;
 }
 
@@ -218,7 +219,6 @@ input {
 }
 
 .description {
-    margin-top: 4px;
     padding: 2px 16px;
 }
 
