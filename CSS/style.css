@@ -249,7 +249,9 @@ input {
     border-radius: 20px;
     width: 420px;
     height: 625px;
+    padding: 41px 40px 34px 37px;
 }
+
 .chart {
     color: #0065FC;
 }
