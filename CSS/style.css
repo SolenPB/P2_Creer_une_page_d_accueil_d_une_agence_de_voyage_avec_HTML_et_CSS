@@ -166,6 +166,7 @@ input {
     width: 880px;
     height: 626px;
 }
+
 #destination {
     display: flex;
     justify-content: space-between;
@@ -203,11 +204,27 @@ input {
 
 /*Les plus populaires*/
 
-#article {
-    display: flex;
-    justify-content: flex-start;
+#populaire {
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    width: 420px;
+    height: 625px;
 }
 .chart {
     color: #0065FC;
 }
 
+.cardpopu {
+   width: 343px;
+   height: 144px;
+   box-shadow: 0 4px 8px 0;
+   transition: 0.3s;
+   border-radius: 20px; 
+}
+
+.photo2 {
+    width: 40%;
+    height: 144px;
+    border-radius: 20px 0 0 20px;
+}
