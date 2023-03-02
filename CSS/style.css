@@ -56,6 +56,10 @@ li:hover{
 
 /*main*/
 
+#titre_page {
+    margin-top:63px;
+}
+
 h1 {
     font-style: normal;
     font-size: 22px;
@@ -63,12 +67,11 @@ h1 {
     line-height: 26px;
 }
 
-/*main*/
-
 /*recherche*/
 
 #recherche {
     display: flex;
+    margin:20px 0 35px 0;
 }
 
 .marker {
@@ -175,7 +178,15 @@ input {
 
 /*Filtres*/
 
-/*Hégergements*/
+/*Infobar*/
+
+#infobar {
+    margin: 39px 0 39px 0;
+}
+
+/*Infobar*/
+
+/*Hébergements*/
 
 #hébergements {
     background-color: #F2F2F2;
