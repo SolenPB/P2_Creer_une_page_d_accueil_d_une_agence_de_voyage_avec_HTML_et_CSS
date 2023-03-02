@@ -1,6 +1,8 @@
 body
 {
     font-family: 'Raleway', sans serif;
+    max-width: 1400px;
+    margin: auto;
 }
 
 /*header*/
@@ -157,7 +159,8 @@ input {
 
 #destination {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .card {
