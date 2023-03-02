@@ -177,7 +177,7 @@ input {
 }
 
 .card {
-    width: 246px;
+    width: 256px;
     height: 199px;
     box-shadow: 0 4px 8px 0;
     transition:0.3s;
@@ -185,7 +185,7 @@ input {
 }
 
 .photo {
-    width: 100%;
+    width: 246px;
     height: 124px;
     border: 5px solid white;
     border-radius: 20px 20px 0 0;
@@ -222,7 +222,7 @@ input {
 .cardpopulaire {
     display: flex;
     width: 343px;
-    height: 144px;
+    height: 154px;
     box-shadow: 0 4px 8px 0;
     transition: 0.3s;
     border-radius: 20px; 
