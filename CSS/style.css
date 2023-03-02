@@ -204,6 +204,7 @@ input {
 }
 
 .card {
+    background-color: white;
     width: 256px;
     height: 199px;
     box-shadow: 0 4px 8px 0;
@@ -213,6 +214,7 @@ input {
 }
 
 .card1 {
+    background-color: white;
     width: 256px;
     height: 199px;
     box-shadow: 0 4px 8px 0;
@@ -258,6 +260,7 @@ input {
 }
 
 .cardpopulaire {
+    background-color: white;
     display: flex;
     width: 343px;
     height: 154px;
