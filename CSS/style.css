@@ -170,7 +170,7 @@ input {
     height: 626px;
 }
 
-#destination {
+#logements {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -187,6 +187,7 @@ input {
 .photo {
     width: 100%;
     height: 124px;
+    border: 5px solid white;
     border-radius: 20px 20px 0 0;
 }
 
@@ -218,16 +219,20 @@ input {
     color: #0065FC;
 }
 
-.cardpopu {
-   width: 343px;
-   height: 144px;
-   box-shadow: 0 4px 8px 0;
-   transition: 0.3s;
-   border-radius: 20px; 
+.cardpopulaire {
+    display: flex;
+    width: 343px;
+    height: 144px;
+    box-shadow: 0 4px 8px 0;
+    transition: 0.3s;
+    border-radius: 20px; 
 }
 
 .photo2 {
-    width: 40%;
+    object-fit: cover;
+    width: 137px;
     height: 144px;
+    border: 5px solid white; 
     border-radius: 20px 0 0 20px;
+    margin-right: 10px;
 }
