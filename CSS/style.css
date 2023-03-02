@@ -194,16 +194,25 @@ input {
     border-radius: 20px;
     width: 880px;
     height: 626px;
+    padding: 42px 40px 107px 40px;
 }
 
 #logements {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card {
+    width: 256px;
+    height: 199px;
+    box-shadow: 0 4px 8px 0;
+    transition:0.3s;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.card1 {
     width: 256px;
     height: 199px;
     box-shadow: 0 4px 8px 0;
