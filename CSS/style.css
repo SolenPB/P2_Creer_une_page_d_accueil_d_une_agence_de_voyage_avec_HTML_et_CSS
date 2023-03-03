@@ -24,30 +24,25 @@ nav {
     align-items: center;
 }
 
+li {
+    text-align: center;
+}
+
 nav ul {
     display: flex;
     list-style: none;
-    height: 132px;
+    height: 134px;
     margin: 0;
+}
+
+nav li:hover {
+    border-top: 2px solid #0065FC;
 }
 
 nav li {
     margin-right: 67px;
     padding-top: 51px;
     width: 162px;
-}
-
-nav li:hover:before {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 162px;
-    top: 0px;
-    background-color: #0065FC;
-}
-
-li {
-    text-align: center;
 }
 
 a {
