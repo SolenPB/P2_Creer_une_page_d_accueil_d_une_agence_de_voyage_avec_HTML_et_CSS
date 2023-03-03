@@ -164,6 +164,10 @@ input {
     border-radius: 25px;
 }
 
+#animaux:hover {
+    background-color: #deebff;
+}
+
 .money {
     color:#0065FC;
     padding-right: 10px;
