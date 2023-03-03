@@ -219,7 +219,7 @@ input::placeholder{
     justify-content: space-between;
 }
 
-.card {
+.card_hébergements {
     background-color: white;
     width: 256px;
     height: 199px;
@@ -229,7 +229,7 @@ input::placeholder{
     margin-bottom: 30px;
 }
 
-.card1 {
+.card_hébergements1 {
     background-color: white;
     width: 256px;
     height: 199px;
