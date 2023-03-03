@@ -35,14 +35,14 @@ nav ul {
     margin: 0;
 }
 
-nav li:hover {
-    border-top: 2px solid #0065FC;
-}
-
 nav li {
     margin-right: 67px;
     padding-top: 51px;
     width: 162px;
+}
+
+nav li:hover {
+    border-top: 2px solid #0065FC;
 }
 
 a {
