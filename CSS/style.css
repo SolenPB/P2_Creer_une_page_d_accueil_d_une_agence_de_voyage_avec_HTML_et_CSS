@@ -328,9 +328,13 @@ input::placeholder{
     margin-right: 10px;
 }
 
-.article {
+.résumé {
+    padding-top: 16px;
+}
+
+.note_populaire {
     display: flex;
-    width: 100%;
+    padding-top: 44px;
 }
 
 /*Les plus populaires*/
