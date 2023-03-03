@@ -20,19 +20,20 @@ nav img {
     height: 19px;
     left: 0px;
     top: 0px;
-    padding-top: 44px;
 }
 
 nav ul {
     display: flex;
     list-style: none;
+    height: 132px;
+    margin: 0;
 }
 
 nav li {
     margin-right: 67px;
     border-top: 2px solid white;
-    padding-top: 48px;
     width: 162px;
+    padding-top: 48px;
 }
 
 li {
