@@ -192,15 +192,15 @@ input {
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 20px;
-    width: 880px;
-    height: 626px;
+    width: 60%;
+    margin-right: 40px;
     padding: 42px 40px 107px 40px;
 }
 
 #logements {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .card {
@@ -250,8 +250,8 @@ input {
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 20px;
-    width: 420px;
-    height: 625px;
+    width: 30%;
+    height: 100%;
     padding: 41px 40px 34px 37px;
 }
 
@@ -280,3 +280,9 @@ input {
 }
 
 /*Les plus populaires*/
+
+/*Hébergements et Les plus populaires*/
+
+#hébergements_populaires {
+    display: flex;
+}
