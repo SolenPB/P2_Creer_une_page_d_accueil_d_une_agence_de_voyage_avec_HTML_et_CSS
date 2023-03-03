@@ -373,5 +373,7 @@ input::placeholder{
 /*Hébergements et Les plus populaires*/
 
 /*Activités*/
-
+.card_activités {
+    display: flex;
+}
 
