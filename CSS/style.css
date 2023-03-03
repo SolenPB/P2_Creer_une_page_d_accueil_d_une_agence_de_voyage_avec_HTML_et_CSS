@@ -9,17 +9,19 @@ body
 }
 
 /*header*/
+
+#logo {
+    width: 61.09px;
+    height: 19px;
+    left: 0px;
+    bottom: 2px;
+    position: relative;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-nav img {
-    width: 61.09px;
-    height: 19px;
-    left: 0px;
-    top: 0px;
 }
 
 nav ul {
@@ -31,9 +33,17 @@ nav ul {
 
 nav li {
     margin-right: 67px;
-    border-top: 2px solid white;
-    width: 162px;
     padding-top: 48px;
+    width: 162px;
+}
+
+nav li:hover:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 162px;
+    top: 0px;
+    background-color: #0065FC;
 }
 
 li {
@@ -50,9 +60,6 @@ a:hover{
     color: #0065FC;
 }
 
-li:hover{
-    border-top:1px solid #0065FC;
-}
 /*header*/
 
 /*main*/
