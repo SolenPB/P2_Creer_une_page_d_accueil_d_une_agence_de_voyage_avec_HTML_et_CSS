@@ -127,7 +127,8 @@ input {
 #eco {
     display: flex;
     justify-content: center;
-    width: 226px;
+    align-items: center;
+    width: 170px;
     height: 50px;
     border: 1px solid #F2F2F2;
     border-radius: 25px;
@@ -136,7 +137,8 @@ input {
 #famille {
     display: flex;
     justify-content: center;
-    width: 226px;
+    align-items: center;
+    width: 170px;
     height: 50px;
     border: 1px solid #F2F2F2;
     border-radius: 25px;
@@ -145,7 +147,8 @@ input {
 #romantique {
     display: flex;
     justify-content: center;
-    width: 226px;
+    align-items: center;
+    width: 200px;
     height: 50px;
     border: 1px solid #F2F2F2;
     border-radius: 25px;
@@ -154,6 +157,7 @@ input {
 #animaux {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 226px;
     height: 50px;
     border: 1px solid #F2F2F2;
@@ -162,18 +166,22 @@ input {
 
 .money {
     color:#0065FC;
+    padding-right: 10px;
 }
 
 .person {
-    color:#0065FC; 
+    color:#0065FC;
+    padding-right: 15px; 
 }
 
 .heart {
     color:#0065FC;
+    padding-right: 10px;
 }
 
 .dog {
     color:#0065FC;
+    padding-right: 10px;
 }
 
 /*Filtres*/
