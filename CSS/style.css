@@ -305,7 +305,12 @@ input::placeholder{
     border-radius: 20px;
     width: 30%;
     height: 625px;
-    padding: 41px 40px 0px 37px;
+    padding: 0px 40px 0px 37px;
+}
+.titre_populaire {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
 }
 
 .chart {
