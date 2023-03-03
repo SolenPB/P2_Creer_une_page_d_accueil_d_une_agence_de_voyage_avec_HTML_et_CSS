@@ -222,7 +222,7 @@ input::placeholder{
     background-color: white;
     width: 256px;
     height: 199px;
-    box-shadow: 0 4px 8px 0;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition:0.3s;
     border-radius: 20px;
     margin-bottom: 30px;
@@ -232,7 +232,7 @@ input::placeholder{
     background-color: white;
     width: 256px;
     height: 199px;
-    box-shadow: 0 4px 8px 0;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition:0.3s;
     border-radius: 20px;
 }
@@ -313,7 +313,7 @@ input::placeholder{
     display: flex;
     width: 343px;
     height: 154px;
-    box-shadow: 0 4px 8px 0;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 20px;
     margin-bottom: 33px; 
