@@ -376,6 +376,7 @@ input::placeholder{
 
 .activités_ville {
     display: flex;
+    justify-content: space-between;
 }
 
 .card_activités {
