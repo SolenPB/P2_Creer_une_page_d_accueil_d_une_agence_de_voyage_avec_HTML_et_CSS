@@ -277,10 +277,14 @@ input {
 }
 
 .star {
+    font-size: 12px;
+    padding-right: 2px;
     color:#0065FC;
 }
 
 .star1 {
+    font-size: 12px;
+    padding-right: 2px;
     color: #F2F2F2;
 }
 
