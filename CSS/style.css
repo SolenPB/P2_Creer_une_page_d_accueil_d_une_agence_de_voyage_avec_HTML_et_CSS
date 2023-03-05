@@ -59,15 +59,12 @@ a:hover{
 
 /*main*/
 
-#titre_page {
-    margin-top:63px;
-}
-
 h1 {
     font-style: normal;
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
+    margin: 0;
 }
 
 /*recherche*/
@@ -195,7 +192,7 @@ input::placeholder{
 /*Infobar*/
 
 #infobar {
-    margin: 39px 0 39px 0;
+    margin: 50px 0 37px 0;
 }
 
 /*Infobar*/
@@ -368,6 +365,7 @@ input::placeholder{
 
 #hébergements_populaires {
     display: flex;
+    margin: 39px 0 60px 0;
 }
 
 /*Hébergements et Les plus populaires*/
@@ -377,6 +375,7 @@ input::placeholder{
 .activités_ville {
     display: flex;
     justify-content: space-between;
+    margin-top: 18px;
 }
 
 .card_activités {
@@ -411,6 +410,7 @@ footer {
     justify-content: space-around;
     width: 100%;
     height: 225px;
+    margin-top: 61px;
 }
 
 footer ul {
