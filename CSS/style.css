@@ -423,6 +423,9 @@ footer ul {
 
 footer li {
     width: 250px;
+    height: 31px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 
@@ -435,24 +438,20 @@ footer li {
 
 .titre_propos {
     width: 150px;
-}
-
-.liste_propos {
-    display: flex;
-    align-items: flex-start;
-    width: 250px;
-    height: 150px;
+    margin-top: 23px;
 }
 
 .nos_hébergements {
     display: flex;
     flex-direction: column;
-    width: 165px;
+    width: 180px;
+    margin-top: 23px;
 }
 
 .assistance {
     display: flex;
     flex-direction: column;
     width: 114px;
+    margin-top: 23px;
 }
 /*Footer*/
