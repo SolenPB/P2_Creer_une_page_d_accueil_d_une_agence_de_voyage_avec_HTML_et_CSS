@@ -36,9 +36,11 @@ nav ul {
 }
 
 nav li {
+    border-top: 2px solid white;
     margin-right: 67px;
     padding-top: 51px;
     width: 162px;
+    height: 19px;
 }
 
 nav li:hover {
