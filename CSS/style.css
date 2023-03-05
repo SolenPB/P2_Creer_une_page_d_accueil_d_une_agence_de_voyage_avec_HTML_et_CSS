@@ -433,11 +433,6 @@ footer li {
     display: flex;
     flex-direction: column;
     width: 194px;
-    height: 250px;
-}
-
-.titre_propos {
-    width: 150px;
     margin-top: 23px;
 }
 
