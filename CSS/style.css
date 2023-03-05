@@ -391,6 +391,10 @@ input::placeholder{
     border-radius: 20px; 
 }
 
+.titre_activités {
+    margin-left: 19px;
+}
+
 .photo_activités {
     object-fit: cover;
     width:  100%;
