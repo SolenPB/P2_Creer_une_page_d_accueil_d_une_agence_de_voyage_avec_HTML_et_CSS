@@ -307,11 +307,13 @@ input::placeholder{
 .titre_populaire {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 41px;
 }
 
 .chart {
     color: #0065FC;
+    height: 15px;
 }
 
 .cardpopulaire {
