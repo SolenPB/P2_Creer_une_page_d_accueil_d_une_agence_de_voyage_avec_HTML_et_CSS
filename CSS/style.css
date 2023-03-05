@@ -404,34 +404,45 @@ input::placeholder{
 
 footer {
     background-color: #F2F2F2;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 95%;
+    width: 100%;
     height: 225px;
 }
 
 footer ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .liste_footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .a_propos {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    width: 194px;
+}
+
+.titre_propos {
+    width: 150px;
+}
+
+.liste_propos {
+    display: flex;
 }
 
 .nos_hébergements {
     display: flex;
     flex-direction: column;
+    width: 165px;
 }
 
 .assistance {
     display: flex;
     flex-direction: column;
+    width: 114px;
 }
 /*Footer*/
