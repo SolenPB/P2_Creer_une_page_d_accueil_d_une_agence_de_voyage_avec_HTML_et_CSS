@@ -420,10 +420,10 @@ footer ul {
 }
 
 footer li {
-    width: 250px;
-    height: 31px;
     display: flex;
     justify-content: flex-start;
+    width: 250px;
+    height: 31px;
 }
 
 
