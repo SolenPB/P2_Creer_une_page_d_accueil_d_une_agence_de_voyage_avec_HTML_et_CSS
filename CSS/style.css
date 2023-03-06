@@ -371,6 +371,10 @@ input::placeholder{
     margin-bottom: 34px; 
 }
 
+.titre {
+    width: 169px;
+}
+
 .photo2 {
     object-fit: cover;
     width: 37%;
