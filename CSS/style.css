@@ -133,6 +133,7 @@ input::placeholder{
 #filtres {
     display: flex;
     justify-content: space-between;
+    width: 950px;
     margin-left: 59px;
 }
 
