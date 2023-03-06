@@ -25,7 +25,7 @@ nav {
     margin: 0 77px 0 55px;
 }
 
-nav ul {
+.menu {
     display: flex;
     align-items: center;
     list-style: none;
@@ -33,25 +33,29 @@ nav ul {
     margin: 0;
 }
 
-.menu {
-    text-align: center;
+.menu li {
+    position: relative;
+    bottom: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-top: 2px solid white;
-    margin-right: 67px;
-    padding-top: 51px;
     width: 162px;
-    height: 19px;
-}
-
-.menu:hover {
-    color: #0065FC;
-    border-top: 2px solid #0065FC;
-    width: 162px;
+    height: 134px;
 }
 
 a {
     color: black;
     text-decoration: none;
     font-weight: 500;
+}
+
+.menu li:hover {
+    border-top: 2px solid #0065FC;
+}
+
+a:hover {
+    color: #0065FC;
 }
 
 /*header*/
