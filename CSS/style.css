@@ -346,13 +346,14 @@ input::placeholder{
 
 .titre_populaire {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     margin: 41px 0 26px 0;
 }
 
 .chart {
     color: #0065FC;
+    padding-left: 100px;
     height: 15px;
 }
 
