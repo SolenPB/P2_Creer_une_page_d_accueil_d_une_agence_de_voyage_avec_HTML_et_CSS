@@ -407,17 +407,17 @@ input::placeholder{
 }
 
 .résumé {
-    padding-top: 16px;
+    padding: 16px 0 0 15px;
 }
 
 .note_populaire {
     display: flex;
-    margin: 44px 0 10px 5px;
+    margin: 44px 0 12px 0;
 }
 
 .note_populaire1{
     display: flex;
-    margin: 63px 0 10px 5px;
+    margin: 63px 0 12px 0;
 }
 
 /*Les plus populaires*/
