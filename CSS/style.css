@@ -412,12 +412,12 @@ input::placeholder{
 
 .note_populaire {
     display: flex;
-    padding: 44px 0 15px 0;
+    margin: 44px 0 5px 15px;
 }
 
 .note_populaire1{
     display: flex;
-    padding: 63px 0 15px 0;
+    margin: 63px 0 5px 15px;
 }
 
 /*Les plus populaires*/
