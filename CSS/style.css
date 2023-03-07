@@ -354,7 +354,11 @@ input::placeholder{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: 41px 0 26px 0;
+    margin: 40px 0 26px 0;
+}
+
+.titre_populaire h2 {
+    margin: 0;
 }
 
 .chart {
