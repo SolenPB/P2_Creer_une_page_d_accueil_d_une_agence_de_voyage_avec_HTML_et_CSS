@@ -554,5 +554,25 @@ footer li {
         color: black;
     }
     
+    #titre_page {
+        margin-left: 72px;
+    }
+
+    #recherche {
+        display: flex;
+        align-items: center;
+        margin:20px 0 35px 74px;
+    }
+
+    #filtres {
+        display: flex;
+        justify-content: space-between;
+        width: 800px;
+        margin-left: 72px;
+    }
+
+    #infobar {
+        margin: 50px 0 37px 72px;
+    }
 }
 
