@@ -598,29 +598,23 @@ footer li {
         border-radius: 20px;
         width: 850px;
         height: 626px;
-        margin-right: 40px;
+        margin-bottom: 53px;
         padding: 0 40px 0 40px;
     }
 
     #populaire {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: flex-start;
+        align-items: center;
         width: 930px;
         height: 300px;
     }
 
-    #article {
-        display: flex;
-        width: 700px;
-        height: 30px;
-    }
-
     .titre_populaire {
         display: flex;
-        justify-content: space-between;
         align-items: flex-start;
-        width: 700px;
+        width: 890px;
         height: 30px;
     }
     
@@ -632,8 +626,9 @@ footer li {
     .top_pluspopulaire {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
         align-items: flex-end;
+        height: 150px;
     }
+    
 }
 
