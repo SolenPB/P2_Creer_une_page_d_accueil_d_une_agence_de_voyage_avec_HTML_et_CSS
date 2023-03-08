@@ -633,12 +633,16 @@ footer li {
     }
 
     .titre_hébergements {
-        padding: 42px 0 23px 30px;
+        padding: 42px 0 0 30px;
         margin: 0;
+        margin-bottom: 23px;
     }
 
     .plus {
-        padding: 40px 0 46px 44px;
+        margin: 40px 0 46px 44px;
+    }
+
+    .plus p {
         margin: 0;
     }
 /*Les plus populaires*/
