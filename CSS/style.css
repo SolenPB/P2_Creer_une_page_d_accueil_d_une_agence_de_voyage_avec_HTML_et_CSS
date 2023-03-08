@@ -677,16 +677,16 @@ footer li {
         font-weight: 700;
         font-size: 14px;
         line-height: 18px;
-        margin: 0;
+        margin-top: 12px;
     }
 
     .lieu_populaire2 h3 {
-        width: 120px;
+        width: 111px;
         height: 57px;
         font-weight: 700;
         font-size: 14px;
         line-height: 18px;
-        margin: 0;
+        margin-top: 12px;
     }
 
     .lieu_populaire3 h3 {
@@ -695,7 +695,7 @@ footer li {
         font-weight: 700;
         font-size: 14px;
         line-height: 18px;
-        margin: 0;
+        margin-top: 12px;
     }
 
     .lieu_prix1 p {
