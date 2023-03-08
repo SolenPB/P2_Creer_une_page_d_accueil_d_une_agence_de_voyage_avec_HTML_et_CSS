@@ -710,7 +710,7 @@ footer li {
         display: flex;
         flex-direction: column;
         width: 135px;
-        height: 32px;
+        height: 25px;
         font-size: 13px;
     }
 
@@ -736,7 +736,7 @@ footer li {
     .note_populaire3 {
         width: 130px;
         height: 12px;
-        padding-top: 54px;
+        padding-top: 45px;
     }
 }
 
