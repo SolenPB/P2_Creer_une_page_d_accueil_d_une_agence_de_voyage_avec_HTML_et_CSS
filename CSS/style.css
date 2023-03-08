@@ -154,10 +154,6 @@ input::placeholder{
     border-radius: 25px;
 }
 
-#eco:hover {
-    background-color: #deebff;
-}
-
 #famille {
     display: flex;
     justify-content: center;
@@ -168,9 +164,7 @@ input::placeholder{
     border-radius: 25px;
 }
 
-#famille:hover {
-    background-color: #deebff;
-}
+
 
 #romantique {
     display: flex;
@@ -182,10 +176,6 @@ input::placeholder{
     border-radius: 25px;
 }
 
-#romantique:hover {
-    background-color: #deebff;
-}
-
 #animaux {
     display: flex;
     justify-content: center;
@@ -194,6 +184,18 @@ input::placeholder{
     height: 50px;
     border: 2px solid #F2F2F2;
     border-radius: 25px;
+}
+
+#eco:hover {
+    background-color: #deebff;
+}
+
+#famille:hover {
+    background-color: #deebff;
+}
+
+#romantique:hover {
+    background-color: #deebff;
 }
 
 #animaux:hover {
