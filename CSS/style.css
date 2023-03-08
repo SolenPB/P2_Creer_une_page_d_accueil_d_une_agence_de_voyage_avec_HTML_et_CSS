@@ -138,6 +138,12 @@ input::placeholder{
     margin-left: 59px;
 }
 
+.bouton_filtres {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
 #eco {
     display: flex;
     justify-content: center;
