@@ -603,18 +603,18 @@ footer li {
 
     #hébergements_populaires {
         display: flex;
+        justify-content: flex-start;
         flex-direction: column;
-        margin: 39px 0 60px 72px;
-        width: 885px;
+        margin: 0;
+        width: 950px;
         height: 1000px;
     }
     
     #hébergements {
-        background-color: #F2F2F2;
-        border: 1px solid #F2F2F2;
-        border-radius: 20px;
-        width: 850px;
-        height: 626px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0;
         margin-bottom: 53px;
         padding: 0 40px 0 40px;
     }
@@ -626,14 +626,15 @@ footer li {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        width: 930px;
+        width: 881px;
         height: 300px;
+        padding: 0;
     }
 
     .titre_populaire {
         display: flex;
         align-items: flex-start;
-        width: 890px;
+        width: 881px;
         height: 30px;
     }
     
