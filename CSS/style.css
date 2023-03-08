@@ -362,6 +362,8 @@ input::placeholder{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    width: 380px;
+    height: 29px;
     margin: 40px 0 26px 0;
 }
 
@@ -587,7 +589,7 @@ footer li {
         flex-direction: column;
         margin: 39px 0 60px 72px;
         width: 885px;
-        height: 950px;
+        height: 1000px;
     }
     
     #hébergements {
@@ -605,7 +607,7 @@ footer li {
         flex-direction: row;
         justify-content: flex-start;
         width: 930px;
-        height: 280px;
+        height: 300px;
     }
 
     #article {
@@ -618,18 +620,19 @@ footer li {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        width: 210px;
+        width: 700px;
         height: 30px;
     }
     
     .titre_populaire h2 {
-        width: 206px;
+        width: 700px;
         height: 26px;
     }
 
     .top_pluspopulaire {
         display: flex;
         flex-direction: row;
+        justify-content: flex-start;
         align-items: flex-end;
     }
 }
