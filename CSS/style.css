@@ -598,6 +598,7 @@ footer li {
         align-items: center;
         margin:20px 0 35px 74px;
     }
+/*Filtres*/
 
     #filtres {
         display: flex;
@@ -605,6 +606,27 @@ footer li {
         width: 800px;
         margin-left: 72px;
     }
+
+    .titre_filtres {
+        margin-right: 18px;
+    }
+
+    #eco:hover {
+        background-color: white;
+    }
+    
+    #famille:hover {
+        background-color: white;
+    }
+    
+    #romantique:hover {
+        background-color: white;
+    }
+    
+    #animaux:hover {
+        background-color: white;
+    }
+    
 /*Infobar*/
 
     #infobar {
