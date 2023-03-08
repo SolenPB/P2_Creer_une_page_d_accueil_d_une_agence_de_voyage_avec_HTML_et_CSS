@@ -626,7 +626,6 @@ footer li {
     .top_pluspopulaire {
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
         height: 150px;
     }
     
