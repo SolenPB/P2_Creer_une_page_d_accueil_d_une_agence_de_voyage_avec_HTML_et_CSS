@@ -658,18 +658,18 @@ footer li {
         margin-left: 30px;
     }
 
+    .titre_hébergements {
+        padding: 42px 0 0 40px;
+        margin: 0;
+        margin-bottom: 23px;
+    }
+
     .card_hébergements {
         margin-right: 30px;
     }
 
     .card_hébergements1 {
         margin-right: 30px;
-    }
-
-    .titre_hébergements {
-        padding: 42px 0 0 40px;
-        margin: 0;
-        margin-bottom: 23px;
     }
 
     .plus {
@@ -681,7 +681,7 @@ footer li {
     }
 /*Les plus populaires*/
 
-    #populaire {
+    #populaires {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -692,7 +692,7 @@ footer li {
         padding: 0;
     }
 
-    .titre_populaire {
+    .titre_populaires {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -705,27 +705,27 @@ footer li {
         padding-right: 40px;
     }
 
-    .top_pluspopulaire {
+    .top_pluspopulaires {
         display: flex;
         flex-direction: row;
         width: 802px;
         height: 150px;
     }
     
-    .cardpopulaire {
+    .card_populaires {
         display: flex;
         width: 260px;
         height: 144px;
         margin-right: 27px;
     }
 
-    .cardpopulaire1 {
+    .card_populaires1 {
         display: flex;
         width: 260px;
         height: 144px;
     }
 
-    .résumé {
+    .description_populaires {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -734,7 +734,7 @@ footer li {
         padding: 0;
     }
 
-    .lieu_populaire1 h3 {
+    .nom_populaires1 h3 {
         width: 135px;
         height: 32px;
         font-weight: 700;
@@ -743,7 +743,7 @@ footer li {
         margin-top: 12px;
     }
 
-    .lieu_populaire2 h3 {
+    .nom_populaires2 h3 {
         width: 111px;
         height: 57px;
         font-weight: 700;
@@ -752,7 +752,7 @@ footer li {
         margin-top: 12px;
     }
 
-    .lieu_populaire3 h3 {
+    .nom_populaires3 h3 {
         width: 104px;
         height: 32px;
         font-weight: 700;
@@ -761,7 +761,7 @@ footer li {
         margin-top: 12px;
     }
 
-    .lieu_prix1 p {
+    .nom_prixpopulaires1 p {
         display: flex;
         flex-direction: column;
         width: 135px;
@@ -769,7 +769,7 @@ footer li {
         font-size: 13px;
     }
 
-    .lieu_prix2 p {
+    .nom_prixpopulaires2 p {
         display: flex;
         flex-direction: column;
         width: 135px;
@@ -777,7 +777,7 @@ footer li {
         font-size: 13px;
     }
 
-    .lieu_prix3 p {
+    .nom_prixpopulaires3 p {
         display: flex;
         flex-direction: column;
         width: 135px;
@@ -785,18 +785,18 @@ footer li {
         font-size: 13px;
     }
 
-    .note_populaire1 {
+    .note_populaires1 {
         width: 130px;
         height: 12px;
         padding-top: 39px;
     }
 
-    .note_populaire2 {
+    .note_populaires2 {
         width: 130px;
         height: 12px;
         padding-top: 12px;
     }
-    .note_populaire3 {
+    .note_populaires3 {
         width: 130px;
         height: 12px;
         padding-top: 45px;
