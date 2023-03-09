@@ -648,7 +648,7 @@ footer li {
         flex-direction: column;
         justify-content: space-around;
         margin: 0;
-        margin-bottom: 53px;
+        margin: 0 0 53px 72px;
         padding: 0;
     }
 
@@ -687,6 +687,7 @@ footer li {
         align-items: center;
         width: 881px;
         height: 300px;
+        margin-left: 70px;
         padding: 0;
     }
 
