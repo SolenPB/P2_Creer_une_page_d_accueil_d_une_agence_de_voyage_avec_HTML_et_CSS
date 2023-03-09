@@ -23,8 +23,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    margin-left: 55px;
+    width: 90%;
+    margin: auto;
 }
 
 .menu {
@@ -521,6 +521,8 @@ input::placeholder{
 
 /*Activités*/
 
+/*Main*/
+
 /*Footer*/
 
 footer {
@@ -576,12 +578,8 @@ footer li {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 100%;
-        margin-left: 72px;
-    }
-    
-    .menu {
-        margin-right: 72px;
+        width: 80%;
+        margin: auto;
     }
     
     .menu li:hover {
@@ -593,25 +591,27 @@ footer li {
     }
     
     #titre_page {
-        margin-left: 72px;
+        width: 80%;
+        margin: auto;
     }
 
     #recherche {
         display: flex;
         align-items: center;
-        margin:20px 0 35px 74px;
+        width: 80%;
+        margin: auto;
     }
 /*Filtres*/
 
     #filtres {
         display: flex;
         justify-content: space-between;
-        width: 800px;
-        margin-left: 72px;
+        width: 80%;
+        margin: 2% 10% 2% 10%;
     }
 
     .titre_filtres {
-        margin-right: 18px;
+        margin-right: 3%;
     }
 
     #eco:hover {
@@ -633,7 +633,8 @@ footer li {
 /*Infobar*/
 
     #infobar {
-        margin: 50px 0 37px 72px;
+        width: 80%;
+        margin: auto;
     }
 
 /*Hébergements*/
