@@ -580,7 +580,6 @@ footer li {
         margin-left: 72px;
     }
     
-
     .menu li:hover {
         border-top: none;
     }
@@ -632,6 +631,7 @@ footer li {
     #infobar {
         margin: 50px 0 37px 72px;
     }
+
 /*Hébergements*/
 
     #hébergements_populaires {
@@ -679,6 +679,7 @@ footer li {
     .plus p {
         margin: 0;
     }
+
 /*Les plus populaires*/
 
     #populaires {
@@ -802,7 +803,7 @@ footer li {
         padding-top: 45px;
     }
 
-    /*Activités*/
+/*Activités*/
 
     #activités {
         width: 880px;
@@ -828,7 +829,7 @@ footer li {
         margin: 0;
     }
 
-    /*Footer*/
+/*Footer*/
 
     footer {
         display: flex;
