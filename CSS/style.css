@@ -235,8 +235,25 @@ input::placeholder{
 /*Infobar*/
 
 #infobar {
-    margin: 50px 0 37px 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2% 0 0 4%;
 }
+
+#infobar p {
+    margin: 0;
+}
+
+.vector {
+    border: 2px solid #F2F2F2;
+    border-radius: 60px;
+    color: #0065FC;
+    margin-right: 1%;
+    padding: 0.75% 1% 0.75% 1%;
+}
+
 
 /*Infobar*/
 
@@ -634,7 +651,8 @@ footer li {
 
     #infobar {
         width: 80%;
-        margin: auto;
+        margin: 0;
+        margin-left: 1%;
     }
 
 /*Hébergements*/
