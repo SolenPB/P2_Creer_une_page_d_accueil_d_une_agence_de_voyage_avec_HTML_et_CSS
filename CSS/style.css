@@ -580,6 +580,9 @@ footer li {
         margin-left: 72px;
     }
     
+    .menu {
+        margin-right: 72px;
+    }
     .menu li:hover {
         border-top: none;
     }
