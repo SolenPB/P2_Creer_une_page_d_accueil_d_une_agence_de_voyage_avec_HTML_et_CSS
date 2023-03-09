@@ -23,8 +23,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
-    margin: auto;
+    width: 95%;
+    margin-left: 5%;
 }
 
 .menu {
@@ -33,7 +33,7 @@ nav {
     align-items: center;
     list-style: none;
     padding: 0;
-    width: 400px;
+    width: 30%;
     height: 134px;
     margin: 0;
 }
@@ -41,23 +41,23 @@ nav {
 .menu_bouton {
     position: relative;
     bottom: 6px;
-    display: inline-block;
+    display: block;
     display: flex;
     justify-content: center;
     align-items: center;
     border-top: 2px solid white;
-    width: 162px;
-    height: 130px;
+    width: 45%;
+    height: 120px;
+}
+
+.menu_bouton:hover {
+    border-top: 2px solid #0065FC;
 }
 
 a {
     color: black;
     text-decoration: none;
     font-weight: 500;
-}
-
-.menu li:hover {
-    border-top: 2px solid #0065FC;
 }
 
 a:hover {
@@ -579,7 +579,7 @@ footer li {
         justify-content: space-between;
         align-items: center;
         width: 80%;
-        margin: auto;
+        margin-left: 5%;
     }
     
     .menu li:hover {
