@@ -138,7 +138,7 @@ input::placeholder{
     margin-left: 59px;
 }
 
-.bouton_filtres {
+.filtres_bouton {
     display: flex;
     justify-content: space-between;
     width: 800px;
@@ -294,14 +294,14 @@ input::placeholder{
     border-radius: 20px 20px 0 0;
 }
 
-.titre_prix {
+.nom_prix {
     display: flex;
     flex-wrap: wrap;
     width: 204px;
 }
 
 
-.titre_logements h3 {
+.nom_hébergements h3 {
     width: 204px;
     height: 15px;
     font-weight: 700;
@@ -311,14 +311,14 @@ input::placeholder{
 }
 
 
-.prix p {
+.prix_hébergements p {
     font-size: 14px;
     line-height: 10px;
     margin: 9px 0 9px 0;
     padding: 0;
 }
 
-.description {
+.description_hébergements {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -335,7 +335,7 @@ input::placeholder{
     color:#0065FC;
 }
 
-.star1 {
+.neutral_star {
     font-size: 12px;
     padding-right: 2px;
     color: #F2F2F2;
@@ -349,7 +349,7 @@ input::placeholder{
 
 /*Les plus populaires*/
 
-#populaire {
+#populaires {
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 20px;
@@ -358,7 +358,7 @@ input::placeholder{
     padding-left: 37px;
 }
 
-.titre_populaire {
+.titre_populaires {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -367,7 +367,7 @@ input::placeholder{
     margin: 40px 0 26px 0;
 }
 
-.titre_populaire h2 {
+.titre_populaires h2 {
     margin: 0;
 }
 
@@ -377,7 +377,7 @@ input::placeholder{
     height: 15px;
 }
 
-.cardpopulaire {
+.card_populaires {
     background-color: white;
     display: flex;
     width: 343px;
@@ -388,7 +388,7 @@ input::placeholder{
     margin-bottom: 33px; 
 }
 
-.cardpopulaire1 {
+.card_populaires1 {
     background-color: white;
     display: flex;
     width: 343px;
@@ -399,7 +399,7 @@ input::placeholder{
     margin-bottom: 34px; 
 }
 
-.résumé {
+.description_populaires {
     display: flex;
     flex-direction: column;
     padding: 16px 0 0 15px;
@@ -413,7 +413,7 @@ input::placeholder{
     border-radius: 20px 0 0 20px;
 }
 
-.lieu_populaire1 h3 {
+.nom_populaires1 h3 {
     width: 169px;
     height: 38px;
     font-weight: 700;
@@ -422,7 +422,7 @@ input::placeholder{
     margin: 0;
 }
 
-.lieu_populaire2 h3 {
+.nom_populaires2 h3 {
     width: 169px;
     height: 38px;
     font-weight: 700;
@@ -431,7 +431,7 @@ input::placeholder{
     margin: 0;
 }
 
-.lieu_populaire3 h3 {
+.nom_populaires3 h3 {
     width: 169px;
     height: 19px;
     font-weight: 700;
@@ -440,32 +440,32 @@ input::placeholder{
     margin: 0;
 }
 
-.lieu_prix1 p {
+.nom_prixpopulaires1 p {
     margin: 0;
     margin-top: 7px;
 }
 
-.lieu_prix2 p {
+.nom_prixpopulaires2 p {
     margin: 0;
     margin-top: 7px;
 }
 
-.lieu_prix3 p {
+.nom_prixpopulaires3 p {
     margin: 0;
     margin-top: 7px;
 }
 
-.note_populaire1 {
+.note_populaires1 {
     display: flex;
     padding: 34px 0 12px 0;
 }
 
-.note_populaire2 {
+.note_populaires2 {
     display: flex;
     padding: 34px 0 12px 0;
 }
 
-.note_populaire3{
+.note_populaires3{
     display: flex;
     padding: 55px 0 12px 0;
 }
