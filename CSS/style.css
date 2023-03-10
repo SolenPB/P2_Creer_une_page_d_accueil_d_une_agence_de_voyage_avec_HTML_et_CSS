@@ -563,9 +563,9 @@ input::placeholder{
 /*Activités*/
 
 #activités {
-    width: 1339px;
+    width: 96%;
     height: 500px;
-    margin: 0 53px 0 50px;
+    margin: 0 5% 0 3.5%;
 }
 
 .activités_ville {
