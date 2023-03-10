@@ -280,6 +280,8 @@ input::placeholder{
     justify-content: space-between;
 }
 
+/*Spécification du titre principal des hébergements*/
+
 .titre_hébergements h2{
     margin: 0;
 }
@@ -287,6 +289,8 @@ input::placeholder{
 .titre_hébergements {
     margin: 5% 0 3% 0;
 }
+
+/*Spécification des cards hébergements*/
 
 .card_hébergements {
     background-color: white;
@@ -307,6 +311,8 @@ input::placeholder{
     border-radius: 20px;
 }
 
+/* Photo des cards hébergements*/
+
 .photo {
     object-fit: cover;
     width: 96%;
@@ -315,6 +321,8 @@ input::placeholder{
     border-radius: 20px 20px 0 0;
 }
 
+/*Spécification des descriptions des cards hébergements*/
+
 .description_hébergements {
     display: flex;
     flex-wrap: wrap;
@@ -322,6 +330,8 @@ input::placeholder{
     width: 83%;
     margin-left: 8%;
 }
+
+/*Spécification de la boîte du titre et prix des cards hébergements*/
 
 .nom_prix {
     display: flex;
@@ -344,13 +354,14 @@ input::placeholder{
     margin: 0;
 }
 
-
 .prix_hébergements p {
     font-size: 14px;
     line-height: 10px;
     margin: 0;
     padding: 0;
 }
+
+/*Spécification des notes*/
 
 .note {
     display: flex;
@@ -385,6 +396,8 @@ input::placeholder{
     padding-left: 3%;
 }
 
+/*Titre principal de la section "populaires"*/
+
 .titre_populaires {
     display: flex;
     justify-content: flex-start;
@@ -404,6 +417,8 @@ input::placeholder{
     padding-left: 8%;
     height: 15px;
 }
+
+/* Spécifications cards populaires*/
 
 .card_populaires {
     background-color: white;
@@ -426,11 +441,7 @@ input::placeholder{
     border-radius: 20px; 
 }
 
-.description_populaires {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-}
+/* Spécifications des photos des cards populaires*/
 
 .photo2 {
     object-fit: cover;
@@ -439,6 +450,16 @@ input::placeholder{
     border: 5px solid white; 
     border-radius: 20px 0 0 20px;
 }
+
+/* Spécifications de la description des cards populaires*/
+
+.description_populaires {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+/*Spécifications des titres des cards populaires*/
 
 .nom_populaires1 {
     width: 91%;
@@ -476,48 +497,53 @@ input::placeholder{
     margin: 0;
 }
 
+/*Spécifications de la boîte du titre et du prix des cards populaires*/
+
 .nom_prixpopulaires1 {
     width: 90%;
-    padding: 4% 0 0 3%;
+    padding: 4% 0 5% 3%;
 }
 
 .nom_prixpopulaires2 {
     width: 80%;
-    padding: 4% 0 0 3%;
+    padding: 4% 0 5% 3%;
 }
 
 .nom_prixpopulaires3 {
-    width: 100%;
+    width: 90%;
+    padding: 4% 0 5% 3%;
 }
 
 .nom_prixpopulaires1 p {
     margin: 0;
-    margin-top: 7px;
+    margin-top: 2%;
 }
 
 .nom_prixpopulaires2 p {
     margin: 0;
-    margin-top: 7px;
+    margin-top: 2%;
 }
 
 .nom_prixpopulaires3 p {
     margin: 0;
-    margin-top: 7px;
+    margin-top: 2%;
 }
+
+/*Spécification des notes des cards populaires*/
 
 .note_populaires1 {
     display: flex;
-    padding: 15% 0 3% 3%;
+    padding: 15% 0 0 3%;
 }
 
 .note_populaires2 {
     display: flex;
-    padding: 15% 0 3% 3%;
+    padding: 15% 0 0 3%;
 }
 
 .note_populaires3{
     display: flex;
-    padding: 55px 0 12px 0;
+    padding: 25% 0 0 3%;
 }
 
 /*Les plus populaires*/
@@ -596,7 +622,6 @@ footer li {
     width: 250px;
     height: 31px;
 }
-
 
 .a_propos {
     display: flex;
