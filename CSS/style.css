@@ -553,7 +553,7 @@ input::placeholder{
 #hébergements_populaires {
     display: flex;
     align-items: center;
-    margin: 39px 0 60px 50px;
+    margin: 5% 0 5% 4%;
     width: 96%;
     height: 626px;
 }
