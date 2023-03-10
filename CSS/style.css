@@ -143,21 +143,21 @@ input::placeholder{
 #filtres {
     display: flex;
     justify-content: space-between;
-    width: 900px;
+    width: 65%;
     margin-left: 59px;
 }
 
 .filtres_bouton {
     display: flex;
     justify-content: space-between;
-    width: 800px;
+    width: 90%;
 }
 
 #eco {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px;
+    width: 20%;
     height: 50px;
     border: 2px solid #F2F2F2;
     border-radius: 25px;
@@ -167,7 +167,7 @@ input::placeholder{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 130px;
+    width: 15%;
     height: 50px;
     border: 2px solid #F2F2F2;
     border-radius: 25px;
@@ -177,7 +177,7 @@ input::placeholder{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 160px;
+    width: 20%;
     height: 50px;
     border: 2px solid #F2F2F2;
     border-radius: 25px;
@@ -187,7 +187,7 @@ input::placeholder{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 226px;
+    width: 27%;
     height: 50px;
     border: 2px solid #F2F2F2;
     border-radius: 25px;
@@ -212,28 +212,28 @@ input::placeholder{
 .money {
     color:#0065FC;
     padding-right: 10px;
-    width: 22px;
+    width: 10%;
     height: 16px;
 }
 
 .person {
     color:#0065FC;
     padding-right: 10px; 
-    width: 13px;
+    width: 10%;
     height: 22px;
 }
 
 .heart {
     color:#0065FC;
     padding-right: 10px;
-    width: 22px;
+    width: 10%;
     height: 18px;
 }
 
 .dog {
     color:#0065FC;
     padding-right: 10px;
-    width: 22px;
+    width: 10%;
     height: 22px;
 }
 
