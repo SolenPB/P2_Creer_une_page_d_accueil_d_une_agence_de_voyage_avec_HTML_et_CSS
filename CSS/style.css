@@ -135,7 +135,6 @@ input::placeholder{
     text-align: center;
 }
 
-
 /*Recherche*/
 
 /*Filtres*/
@@ -261,20 +260,18 @@ input::placeholder{
     margin: 0 1% 0 2%;
 }
 
-
 /*Infobar*/
 
 /*Hébergements*/
-
 
 #hébergements {
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 20px;
-    width: 880px;
+    width: 80%;
     height: 626px;
-    margin-right: 40px;
-    padding: 0 40px 0 40px;
+    margin-right: 3%;
+    padding: 0 3% 0 3%;
 }
 
 #logements {
@@ -288,7 +285,7 @@ input::placeholder{
 }
 
 .titre_hébergements {
-    margin: 42px 0 23px 0;
+    margin: 5% 0 3% 0;
 }
 
 .card_hébergements {
@@ -318,15 +315,28 @@ input::placeholder{
     border-radius: 20px 20px 0 0;
 }
 
+.description_hébergements {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 83%;
+    margin-left: 8%;
+}
+
 .nom_prix {
     display: flex;
     flex-wrap: wrap;
-    width: 204px;
+    width: 100%;
+    height: 43px;
+    padding-bottom: 1%;
 }
 
+.nom_hébergements {
+    width: 100%;
+    height: 20px;
+}
 
 .nom_hébergements h3 {
-    width: 204px;
     height: 15px;
     font-weight: 700;
     font-size: 16px;
@@ -338,15 +348,8 @@ input::placeholder{
 .prix_hébergements p {
     font-size: 14px;
     line-height: 10px;
-    margin: 9px 0 9px 0;
+    margin: 0;
     padding: 0;
-}
-
-.description_hébergements {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-left: 8%;
 }
 
 .note {
@@ -502,7 +505,7 @@ input::placeholder{
     display: flex;
     align-items: center;
     margin: 39px 0 60px 50px;
-    width: 1339px;
+    width: 96%;
     height: 626px;
 }
 
