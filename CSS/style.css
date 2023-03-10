@@ -663,7 +663,7 @@ footer li {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 82%;
+        width: 83%;
         margin-left: 5%;
     }
 
@@ -719,7 +719,7 @@ footer li {
         display: flex;
         justify-content: space-between;
         width: 80%;
-        margin: 2% 10% 2% 10%;
+        margin: 3% 10% 3% 5%;
     }
 
     .titre_filtres {
@@ -747,7 +747,7 @@ footer li {
     #infobar {
         width: 80%;
         margin: 0;
-        margin-left: 1%;
+        margin-left: 3%;
     }
 
 /*Hébergements*/
