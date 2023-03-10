@@ -380,27 +380,28 @@ input::placeholder{
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 20px;
-    width: 420px;
+    width: 37.5%;
     height: 625px;
-    padding-left: 37px;
+    padding-left: 3%;
 }
 
 .titre_populaires {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 380px;
+    width: 98%;
     height: 29px;
-    margin: 40px 0 26px 0;
+    margin: 10% 0 8% 0;
 }
 
 .titre_populaires h2 {
+    width: 80%;
     margin: 0;
 }
 
 .chart {
     color: #0065FC;
-    padding-left: 100px;
+    padding-left: 8%;
     height: 15px;
 }
 
@@ -412,7 +413,7 @@ input::placeholder{
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 20px;
-    margin-bottom: 33px; 
+    margin-bottom: 8%; 
 }
 
 .card_populaires1 {
@@ -422,14 +423,13 @@ input::placeholder{
     height: 144px;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition: 0.3s;
-    border-radius: 20px;
-    margin-bottom: 34px; 
+    border-radius: 20px; 
 }
 
 .description_populaires {
     display: flex;
     flex-direction: column;
-    padding: 16px 0 0 15px;
+    width: 70%;
 }
 
 .photo2 {
@@ -440,8 +440,19 @@ input::placeholder{
     border-radius: 20px 0 0 20px;
 }
 
+.nom_populaires1 {
+    width: 91%;
+}
+
+.nom_populaires2 {
+    width: 93%;
+}
+
+.nom_populaires3 {
+    width: 91%;
+}
+
 .nom_populaires1 h3 {
-    width: 169px;
     height: 38px;
     font-weight: 700;
     font-size: 16px;
@@ -450,7 +461,6 @@ input::placeholder{
 }
 
 .nom_populaires2 h3 {
-    width: 169px;
     height: 38px;
     font-weight: 700;
     font-size: 16px;
@@ -459,12 +469,25 @@ input::placeholder{
 }
 
 .nom_populaires3 h3 {
-    width: 169px;
     height: 19px;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     margin: 0;
+}
+
+.nom_prixpopulaires1 {
+    width: 90%;
+    padding: 4% 0 0 3%;
+}
+
+.nom_prixpopulaires2 {
+    width: 80%;
+    padding: 4% 0 0 3%;
+}
+
+.nom_prixpopulaires3 {
+    width: 100%;
 }
 
 .nom_prixpopulaires1 p {
@@ -484,12 +507,12 @@ input::placeholder{
 
 .note_populaires1 {
     display: flex;
-    padding: 34px 0 12px 0;
+    padding: 15% 0 3% 3%;
 }
 
 .note_populaires2 {
     display: flex;
-    padding: 34px 0 12px 0;
+    padding: 15% 0 3% 3%;
 }
 
 .note_populaires3{
