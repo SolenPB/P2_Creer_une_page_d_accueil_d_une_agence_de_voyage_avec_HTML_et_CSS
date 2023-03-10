@@ -627,21 +627,21 @@ footer li {
     display: flex;
     flex-direction: column;
     width: 194px;
-    margin-top: 23px;
+    padding-top: 2%;
 }
 
 .nos_hébergements {
     display: flex;
     flex-direction: column;
     width: 180px;
-    margin-top: 23px;
+    padding-top: 2%;
 }
 
 .assistance {
     display: flex;
     flex-direction: column;
     width: 114px;
-    margin-top: 23px;
+    padding-top: 2%;
 }
 /*Footer*/
 
