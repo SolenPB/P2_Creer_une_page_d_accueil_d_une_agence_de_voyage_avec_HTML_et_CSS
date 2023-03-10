@@ -246,7 +246,7 @@ input::placeholder{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin: 2% 0 5% 12%;
+    margin: 2% 0 2% 2%;
 }
 
 #infobar p {
@@ -257,8 +257,8 @@ input::placeholder{
     border: 2px solid #F2F2F2;
     border-radius: 60px;
     color: #0065FC;
-    padding: 1% 1.5% 1% 1.5%;
-    margin: 0 1% 0 9%;
+    padding: 1% 1.25% 1% 1.25%;
+    margin: 0 1% 0 2%;
 }
 
 
