@@ -295,7 +295,7 @@ input::placeholder{
 
 /*Spécification des cards hébergements*/
 
-.card_hébergements {
+.card_hébergements1 {
     background-color: white;
     width: 246px;
     height: 199px;
@@ -304,8 +304,43 @@ input::placeholder{
     border-radius: 20px;
     margin-bottom: 30px;
 }
+.card_hébergements2 {
+    background-color: white;
+    width: 246px;
+    height: 199px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    transition:0.3s;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.card_hébergements3 {
+    background-color: white;
+    width: 246px;
+    height: 199px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    transition:0.3s;
+    border-radius: 20px;
+}
 
-.card_hébergements1 {
+.card_hébergements4 {
+    background-color: white;
+    width: 246px;
+    height: 199px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    transition:0.3s;
+    border-radius: 20px;
+}
+
+.card_hébergements5 {
+    background-color: white;
+    width: 246px;
+    height: 199px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    transition:0.3s;
+    border-radius: 20px;
+}
+
+.card_hébergements6 {
     background-color: white;
     width: 246px;
     height: 199px;
