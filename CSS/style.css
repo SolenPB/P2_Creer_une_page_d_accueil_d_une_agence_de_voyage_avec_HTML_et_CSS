@@ -675,7 +675,7 @@ input::placeholder{
 
 .note_populaires1 {
     display: flex;
-    padding-bottom: 3%;
+    padding: 15% 0 0 3%;
 }
 
 .note_populaires2 {
