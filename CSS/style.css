@@ -248,7 +248,7 @@ input::placeholder{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin: 2% 0 2% 2%;
+    margin-left: 2%;
 }
 
 #infobar p {
@@ -265,6 +265,18 @@ input::placeholder{
 
 /*Infobar*/
 
+/*Hébergements et Les plus populaires*/
+
+#hébergements_populaires {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    width: 100%;
+    height: 626px;
+}
+
+/*Hébergements et Les plus populaires*/
+
 /*Hébergements*/
 
 #hébergements {
@@ -272,7 +284,7 @@ input::placeholder{
     border: 1px solid #F2F2F2;
     border-radius: 20px;
     width: 77%;
-    height: 626px;
+    height: 100%;
     margin-right: 3%;
     padding: 0;
 }
@@ -292,7 +304,6 @@ input::placeholder{
 }
 
 /*Boîtes des liens des cards*/
-
 
 .lien_hébergements1 {
     display: flex;
@@ -477,8 +488,12 @@ input::placeholder{
     color: #F2F2F2;
 }
 
+.plus p {
+    margin: 0;
+}
+
 .plus {
-    margin: 4% 0 0 4%;
+    margin: 3% 0 0 5%
 }
 
 /*Hébergements*/
@@ -490,7 +505,7 @@ input::placeholder{
     border: 1px solid #F2F2F2;
     border-radius: 20px;
     width: 37.5%;
-    height: 625px;
+    height: 100%;
     padding-left: 3%;
 }
 
@@ -645,18 +660,6 @@ input::placeholder{
 }
 
 /*Les plus populaires*/
-
-/*Hébergements et Les plus populaires*/
-
-#hébergements_populaires {
-    display: flex;
-    align-items: center;
-    margin: 5% 0 5% 3.5%;
-    width: 100%;
-    height: 626px;
-}
-
-/*Hébergements et Les plus populaires*/
 
 /*Activités*/
 
