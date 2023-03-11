@@ -271,17 +271,17 @@ input::placeholder{
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 20px;
-    width: 80%;
+    width: 98%;
     height: 626px;
     margin-right: 3%;
-    padding: 0 3% 0 3%;
+    padding: 0;
 }
 
 #logements {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    width: 98%
+    width: 100%
 }
 
 /*Spécification du titre principal des hébergements*/
@@ -294,16 +294,64 @@ input::placeholder{
     margin: 5% 0 3% 0;
 }
 
-/*Spécification des cards hébergements*/
+/*Boîtes des liens des cards*/
 
 .lien_hébergements1 {
     display: flex;
     justify-content: flex-start;
     box-sizing: content-box;
-    width: 31.5%;
+    width: 28%;
+    margin-right: 3%;
+    padding: 0;
+}
+
+.lien_hébergements2 {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: content-box;
+    width: 28%;
     margin: 0;
     padding: 0;
 }
+
+.lien_hébergements3 {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: content-box;
+    width: 28%;
+    margin: 0;
+    padding: 0;
+}
+
+.lien_hébergements4 {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: content-box;
+    width: 28%;
+    margin: 0;
+    padding: 0;
+}
+
+.lien_hébergements5 {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: content-box;
+    width: 28%;
+    margin: 0;
+    padding: 0;
+}
+
+.lien_hébergements6 {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: content-box;
+    width: 28%;
+    margin: 0;
+    padding: 0;
+}
+
+/*Les cards hébergements*/
+
 .card_hébergements1 {
     background-color: white;
     width: 100%;
@@ -315,7 +363,7 @@ input::placeholder{
 }
 .card_hébergements2 {
     background-color: white;
-    width: 80%;
+    width: 100%;
     height: 199px;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition:0.3s;
@@ -324,7 +372,7 @@ input::placeholder{
 }
 .card_hébergements3 {
     background-color: white;
-    width: 68.5%;
+    width: 100%;
     height: 199px;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition:0.3s;
@@ -333,7 +381,7 @@ input::placeholder{
 
 .card_hébergements4 {
     background-color: white;
-    width: 75.5%;
+    width: 100%;
     height: 199px;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition:0.3s;
@@ -342,7 +390,7 @@ input::placeholder{
 
 .card_hébergements5 {
     background-color: white;
-    width: 70.75%;
+    width: 100%;
     height: 199px;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition:0.3s;
@@ -351,7 +399,7 @@ input::placeholder{
 
 .card_hébergements6 {
     background-color: white;
-    width: 71.75%;
+    width: 100%;
     height: 199px;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition:0.3s;
