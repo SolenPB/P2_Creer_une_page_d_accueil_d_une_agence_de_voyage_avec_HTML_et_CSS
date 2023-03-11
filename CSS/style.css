@@ -569,7 +569,23 @@ input::placeholder{
 
 /* Spécifications des photos des cards populaires*/
 
+.photo1 {
+    object-fit: cover;
+    width: 37%;
+    height: 93%;
+    border: 5px solid white; 
+    border-radius: 20px 0 0 20px;
+}
+
 .photo2 {
+    object-fit: cover;
+    width: 51%;
+    height: 93%;
+    border: 5px solid white; 
+    border-radius: 20px 0 0 20px;
+}
+
+.photo3 {
     object-fit: cover;
     width: 37%;
     height: 93%;
@@ -591,7 +607,7 @@ input::placeholder{
 }
 
 .nom_populaires2 {
-    width: 93%;
+    width: 91%;
 }
 
 .nom_populaires3 {
@@ -630,8 +646,9 @@ input::placeholder{
 }
 
 .nom_prixpopulaires2 {
-    width: 80%;
-    padding: 4% 0 5% 3%;
+    width: 95%;
+    margin-left: 3%;
+    padding: 4% 0 5% 0;
 }
 
 .nom_prixpopulaires3 {
