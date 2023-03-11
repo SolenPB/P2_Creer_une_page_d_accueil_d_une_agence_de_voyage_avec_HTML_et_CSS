@@ -504,11 +504,15 @@ input::placeholder{
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 20px;
-    width: 37.5%;
+    width: 31%;
     height: 100%;
     padding-left: 3%;
 }
 
+.top_pluspopulaires {
+    width: 100%;
+    height: 82%;
+}
 /*Titre principal de la section "populaires"*/
 
 .titre_populaires {
@@ -533,22 +537,31 @@ input::placeholder{
 
 /* Spécifications cards populaires*/
 
-.card_populaires {
-    background-color: white;
-    display: flex;
-    width: 343px;
-    height: 144px;
-    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 20px;
-    margin-bottom: 8%; 
-}
-
 .card_populaires1 {
     background-color: white;
     display: flex;
-    width: 343px;
-    height: 144px;
+    width: 91.25%;
+    height: 28%;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.card_populaires2 {
+    background-color: white;
+    display: flex;
+    width: 91.25%;
+    height: 28%;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px; 
+}
+
+.card_populaires3 {
+    background-color: white;
+    display: flex;
+    width: 91.25%;
+    height: 28%;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 20px; 
@@ -569,7 +582,6 @@ input::placeholder{
 .description_populaires {
     display: flex;
     flex-direction: column;
-    width: 70%;
 }
 
 /*Spécifications des titres des cards populaires*/
@@ -646,7 +658,7 @@ input::placeholder{
 
 .note_populaires1 {
     display: flex;
-    padding: 15% 0 0 3%;
+    padding-bottom: 3%;
 }
 
 .note_populaires2 {
