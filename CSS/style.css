@@ -864,7 +864,7 @@ footer {
     background-color: #F2F2F2;
     width: 92%;
     height: 225px;
-    margin: 6% 4% 0 4%;
+    margin: 3% 4% 0 4%;
 }
 
 footer ul {
@@ -881,31 +881,34 @@ footer li {
 
 .navigation_footer {
     display: flex;
-    justify-content: space-around;
-    padding-right: 18%;
+    justify-content: space-between;
+    width: 92%;
+    height: 100%;
+    margin-right: 18%;
 }
 
 .a_propos {
     display: flex;
     flex-direction: column;
-    width: 194px;
-    margin-right: 5%;
-    padding-top: 2%;
+    width: 17%;
+    margin-right: 3%;
+    padding: 2% 0 0 7%;
 }
 
 .nos_hébergements {
     display: flex;
     flex-direction: column;
-    width: 180px;
-    margin-right: 9%;
+    width: 17%;
+    margin-right: 6%;
     padding-top: 2%;
 }
 
 .assistance {
     display: flex;
     flex-direction: column;
-    width: 114px;
+    width: 17%;
     padding-top: 2%;
+    margin-right: 7%;
 }
 /*Footer*/
 
