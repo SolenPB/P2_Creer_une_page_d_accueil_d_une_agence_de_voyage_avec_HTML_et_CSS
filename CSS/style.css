@@ -23,7 +23,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 92%;
     margin-left: 4%;
 }
 
@@ -69,7 +69,7 @@ a:hover {
 /*main*/
 
 #titre_page {
-    width: 100%;
+    width: 92%;
     margin-left: 4%;
 }
 
@@ -87,7 +87,7 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 92%;
     margin:2% 0 2% 4%;
 }
 
@@ -148,7 +148,7 @@ input::placeholder{
     display: flex;
     justify-content: space-between;
     width: 65%;
-    margin-left: 59px;
+    margin-left: 4%;
 }
 
 .filtres_bouton {
@@ -250,8 +250,8 @@ input::placeholder{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
-    margin-left: 2%;
+    width: 92%;
+    margin: 2% 0 2% 4%;
 }
 
 #infobar p {
@@ -263,7 +263,7 @@ input::placeholder{
     border-radius: 60px;
     color: #0065FC;
     padding: 1% 1.25% 1% 1.25%;
-    margin: 0 1% 0 2%;
+    margin-right: 1% ;
 }
 
 /*Infobar*/
@@ -273,9 +273,9 @@ input::placeholder{
 #hébergements_populaires {
     display: flex;
     justify-content: flex-start;
-    margin-left: 3%;
-    width: 100%;
+    width: 92%;
     height: 626px;
+    margin-left: 4%;
 }
 
 /*Hébergements et Les plus populaires*/
@@ -286,7 +286,7 @@ input::placeholder{
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 20px;
-    width: 62.75%;
+    width: 65%;
     height: 100%;
     margin-right: 3%;
     padding: 0;
@@ -507,7 +507,7 @@ input::placeholder{
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 20px;
-    width: 30%;
+    width: 35%;
     height: 100%;
 }
 
@@ -714,14 +714,14 @@ input::placeholder{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 100%;
+    width: 92%;
     height: 580px;
-    margin: 3% 0 0 3%;
+    margin: 3% 0 0 4%;
 }
 
 .activités_ville {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     width: 100%;
     height: 76.7%;
 }
@@ -729,30 +729,33 @@ input::placeholder{
 /*Caractéristiques des liens*/
 
 .lien_activités1 {
-    display: flex;
+    display: block;
     justify-content: flex-start;
-    width: 24.5%;
+    width: 23.8%;
     height: 100%;
+    margin-right: 2.8%;
 }
 
 .lien_activités2 {
-    display: flex;
+    display: block;
     justify-content: flex-start;
-    width: 24.5%;
+    width: 23.8%;
     height: 100%;
+    margin-right: 2.8%;
 }
 
 .lien_activités3 {
-    display: flex;
+    display: block;
     justify-content: flex-start;
-    width: 24.5%;
+    width: 23.8%;
     height: 100%;
+    margin-right: 2.8%;
 }
 
 .lien_activités4 {
-    display: flex;
+    display: block;
     justify-content: flex-start;
-    width: 24.5%;
+    width: 23.8%;
     height: 100%;
 }
 
@@ -762,7 +765,7 @@ input::placeholder{
     display: flex;
     flex-wrap: wrap;
     background-color: white;
-    width: 88.25%;
+    width: 98.25%;
     height: 100%;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -773,7 +776,7 @@ input::placeholder{
     display: flex;
     flex-wrap: wrap;
     background-color: white;
-    width: 88.25%;
+    width: 98.25%;
     height: 100%;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -784,7 +787,7 @@ input::placeholder{
     display: flex;
     flex-wrap: wrap;
     background-color: white;
-    width: 88.25%;
+    width: 98.25%;
     height: 100%;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -795,19 +798,44 @@ input::placeholder{
     display: flex;
     flex-wrap: wrap;
     background-color: white;
-    width: 88.25%;
+    width: 98.25%;
     height: 100%;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 20px; 
 }
 
-.photo_activités {
+/*Photos activités*/
+
+.photo_activités1 {
     object-fit: cover;
     width:  100%;
     height: 85%;
     border-radius: 20px 20px 0 0;
 }
+
+.photo_activités2 {
+    object-fit: cover;
+    width:  100%;
+    height: 85%;
+    border-radius: 20px 20px 0 0;
+}
+
+.photo_activités3 {
+    object-fit: cover;
+    width:  100%;
+    height: 85%;
+    border-radius: 20px 20px 0 0;
+}
+
+.photo_activités4 {
+    object-fit: cover;
+    width:  100%;
+    height: 85%;
+    border-radius: 20px 20px 0 0;
+}
+
+/*Lieux des activités*/
 
 .lieu_activités1 {
     margin-left: 19px;
@@ -834,9 +862,9 @@ input::placeholder{
 
 footer {
     background-color: #F2F2F2;
-    width: 96%;
+    width: 92%;
     height: 225px;
-    margin: 6% 4% 0 3.5%;
+    margin: 6% 4% 0 4%;
 }
 
 footer ul {
