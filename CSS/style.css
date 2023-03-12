@@ -711,22 +711,92 @@ input::placeholder{
 /*Activités*/
 
 #activités {
-    width: 96%;
-    height: 500px;
-    margin: 0 5% 0 3.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 95.5%;
+    height: 580px;
+    margin-left: 3.5%;
 }
 
 .activités_ville {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
+    height: 76.7%;
 }
 
-.card_activités {
+.lien_activités1 {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: content-box;
+    width: 25%;
+    height: 100%;
+}
+
+.lien_activités2 {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: content-box;
+    width: 25%;
+    height: 100%;
+}
+
+.lien_activités3 {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: content-box;
+    width: 25%;
+    height: 100%;
+}
+
+.lien_activités4 {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: content-box;
+    width: 25%;
+    height: 100%;
+}
+
+.card_activités1 {
     display: flex;
     flex-wrap: wrap;
     background-color: white;
-    width: 302px;
-    height: 444px;
+    width: 90.5%;
+    height: 100%;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px; 
+}
+
+.card_activités2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 90.5%;
+    height: 100%;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px; 
+}
+
+.card_activités3 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 90.5%;
+    height: 100%;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px; 
+}
+
+.card_activités4 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 90.5%;
+    height: 100%;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 20px; 
@@ -739,9 +809,22 @@ input::placeholder{
     border-radius: 20px 20px 0 0;
 }
 
-.lieu_activités {
+.lieu_activités1 {
     margin-left: 19px;
 }
+
+.lieu_activités2 {
+    margin-left: 19px;
+}
+
+.lieu_activités3 {
+    margin-left: 19px;
+}
+
+.lieu_activités4 {
+    margin-left: 19px;
+}
+
 
 /*Activités*/
 
