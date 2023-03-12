@@ -507,9 +507,8 @@ input::placeholder{
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 20px;
-    width: 27%;
+    width: 30%;
     height: 100%;
-    padding-left: 3%;
 }
 
 .top_pluspopulaires {
@@ -522,13 +521,13 @@ input::placeholder{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 98%;
+    width: 95%;
     height: 29px;
-    margin: 10% 0 8% 0;
+    margin: 10% 0 8% 8%;
 }
 
 .titre_populaires h2 {
-    width: 80%;
+    width: 75%;
     margin: 0;
 }
 
@@ -543,33 +542,34 @@ input::placeholder{
 .card_populaires1 {
     background-color: white;
     display: flex;
-    width: 91.25%;
+    width: 81.75%;
     height: 28%;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 20px;
-    margin-bottom: 8%;
+    margin: 0 0 3% 8%;
 }
 
 .card_populaires2 {
     background-color: white;
     display: flex;
-    width: 91.25%;
+    width: 81.75%;
     height: 28%;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 20px; 
-    margin-bottom: 8%;
+    margin: 0 0 3% 8%;
 }
 
 .card_populaires3 {
     background-color: white;
     display: flex;
-    width: 91.25%;
+    width: 81.75%;
     height: 28%;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition: 0.3s;
-    border-radius: 20px; 
+    border-radius: 20px;
+    margin-left: 8%; 
 }
 
 /* Spécifications des photos des cards populaires*/
@@ -716,7 +716,7 @@ input::placeholder{
     justify-content: flex-start;
     width: 100%;
     height: 580px;
-    margin-left: 3%;
+    margin: 3% 0 0 3%;
 }
 
 .activités_ville {
@@ -731,7 +731,6 @@ input::placeholder{
 .lien_activités1 {
     display: flex;
     justify-content: flex-start;
-    box-sizing: content-box;
     width: 24.5%;
     height: 100%;
 }
@@ -739,7 +738,6 @@ input::placeholder{
 .lien_activités2 {
     display: flex;
     justify-content: flex-start;
-    box-sizing: content-box;
     width: 24.5%;
     height: 100%;
 }
@@ -747,7 +745,6 @@ input::placeholder{
 .lien_activités3 {
     display: flex;
     justify-content: flex-start;
-    box-sizing: content-box;
     width: 24.5%;
     height: 100%;
 }
@@ -755,7 +752,6 @@ input::placeholder{
 .lien_activités4 {
     display: flex;
     justify-content: flex-start;
-    box-sizing: content-box;
     width: 24.5%;
     height: 100%;
 }
