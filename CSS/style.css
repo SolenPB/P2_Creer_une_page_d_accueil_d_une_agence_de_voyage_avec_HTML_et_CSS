@@ -726,6 +726,8 @@ input::placeholder{
     height: 76.7%;
 }
 
+/*Caractéristiques des liens*/
+
 .lien_activités1 {
     display: flex;
     justify-content: flex-start;
@@ -757,6 +759,8 @@ input::placeholder{
     width: 25%;
     height: 100%;
 }
+
+/*Caractéristiques des cards*/
 
 .card_activités1 {
     display: flex;
