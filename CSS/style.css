@@ -861,6 +861,14 @@ footer li {
         width: 38%;
     }
 
+    .menu_bouton:hover {
+        border: none;
+    }
+
+    a:hover {
+        color: black;
+    }
+    
 /*Titre de la page*/
 
     #titre_page {
@@ -957,8 +965,8 @@ footer li {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        margin-left: 3%;
-        width: 85%;
+        margin-left: 5%;
+        width: 91%;
         height: 1000px;
     }
     
@@ -981,7 +989,9 @@ footer li {
     .titre_hébergements {
         display: flex;
         justify-content: flex-start;
-        margin: 0;
+        align-items: center;
+        width: 50%;
+        margin: 1% 0 0 3%;
     }
 
     .card_hébergements {
@@ -1014,7 +1024,7 @@ footer li {
         align-items: center;
         width: 881px;
         height: 300px;
-        margin-left: 70px;
+        margin: 0;
         padding: 0;
     }
 
