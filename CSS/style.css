@@ -728,23 +728,7 @@ input::placeholder{
 
 /*Caractéristiques des liens*/
 
-.lien_activités1 {
-    display: block;
-    justify-content: flex-start;
-    width: 23.8%;
-    height: 100%;
-    margin-right: 2.8%;
-}
-
-.lien_activités2 {
-    display: block;
-    justify-content: flex-start;
-    width: 23.8%;
-    height: 100%;
-    margin-right: 2.8%;
-}
-
-.lien_activités3 {
+.lien_activités {
     display: block;
     justify-content: flex-start;
     width: 23.8%;
@@ -761,40 +745,7 @@ input::placeholder{
 
 /*Caractéristiques des cards*/
 
-.card_activités1 {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: white;
-    width: 98.25%;
-    height: 100%;
-    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 20px; 
-}
-
-.card_activités2 {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: white;
-    width: 98.25%;
-    height: 100%;
-    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 20px; 
-}
-
-.card_activités3 {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: white;
-    width: 98.25%;
-    height: 100%;
-    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 20px; 
-}
-
-.card_activités4 {
+.card_activités {
     display: flex;
     flex-wrap: wrap;
     background-color: white;
@@ -807,28 +758,7 @@ input::placeholder{
 
 /*Photos activités*/
 
-.photo_activités1 {
-    object-fit: cover;
-    width:  100%;
-    height: 85%;
-    border-radius: 20px 20px 0 0;
-}
-
-.photo_activités2 {
-    object-fit: cover;
-    width:  100%;
-    height: 85%;
-    border-radius: 20px 20px 0 0;
-}
-
-.photo_activités3 {
-    object-fit: cover;
-    width:  100%;
-    height: 85%;
-    border-radius: 20px 20px 0 0;
-}
-
-.photo_activités4 {
+.photo_activités {
     object-fit: cover;
     width:  100%;
     height: 85%;
