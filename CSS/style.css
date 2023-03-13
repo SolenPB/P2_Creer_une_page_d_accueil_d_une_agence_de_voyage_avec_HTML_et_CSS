@@ -215,28 +215,28 @@ input::placeholder{
 
 .money {
     color:#0065FC;
-    padding-right: 10px;
+    padding-right: 2%;
     width: 10%;
     height: 16px;
 }
 
 .person {
     color:#0065FC;
-    padding-right: 10px; 
+    padding-right: 2%; 
     width: 10%;
     height: 22px;
 }
 
 .heart {
     color:#0065FC;
-    padding-right: 10px;
+    padding-right: 2%;
     width: 10%;
     height: 18px;
 }
 
 .dog {
     color:#0065FC;
-    padding-right: 10px;
+    padding-right: 2%;
     width: 10%;
     height: 22px;
 }
@@ -939,6 +939,29 @@ footer li {
         background-color: white;
     }
     
+    .money {
+        padding-right: 10px;
+        width: 10%;
+        height: 16px;
+    }
+    
+    .person {
+        padding-right: 10px; 
+        width: 10%;
+        height: 22px;
+    }
+    
+    .heart {
+        padding-right: 10px;
+        width: 10%;
+        height: 18px;
+    }
+    
+    .dog {
+        padding-right: 10px;
+        width: 10%;
+        height: 22px;
+    }
 /*Infobar*/
 
     #infobar {
