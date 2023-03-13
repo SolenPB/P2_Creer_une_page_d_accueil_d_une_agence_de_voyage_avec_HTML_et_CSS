@@ -923,6 +923,11 @@ footer li {
         margin-right: 3%;
     }
 
+    .filtres_bouton {
+        display: flex;
+        align-items: center;
+    }
+
     #eco:hover {
         background-color: white;
     }
@@ -940,25 +945,25 @@ footer li {
     }
     
     .money {
-        padding-right: 10px;
+        padding:0 8% 0 2%;
         width: 10%;
         height: 16px;
     }
     
     .person {
-        padding-right: 10px; 
+        padding: 0 8% 0 2%; 
         width: 10%;
         height: 22px;
     }
     
     .heart {
-        padding-right: 10px;
+        padding: 0 7% 0 4%;
         width: 10%;
         height: 18px;
     }
     
     .dog {
-        padding-right: 10px;
+        padding: 0 3% 0 2%;
         width: 10%;
         height: 22px;
     }
