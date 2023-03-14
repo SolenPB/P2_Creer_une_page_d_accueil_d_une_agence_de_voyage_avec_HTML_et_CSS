@@ -1222,15 +1222,26 @@ footer li {
 /*Activités*/
 
     #activités {
-        width: 880px;
-        height: 300px;
-        margin: 0 73px 0 73px;
+        width: 94%;
+        height: 70%;
+        margin: 2% 0 2% 5%;
     }
     
+    .titre_activités {
+        margin-bottom: 2%;
+    }
+    .activités_ville {
+        width: 100%;
+        height: 50%;
+    }   
+    .lien_activités {
+        margin-right: 1%;
+    }
+
     .card_activités {
         display: flex;
         flex-wrap: wrap;
-        width: 182px;
+        width: 85%;
         height: 267px;      
     }
 
@@ -1240,8 +1251,18 @@ footer li {
         height: 80%;
     }
 
-    .lieu_activités h3 {
-        font-size: 16px;
+    .lieu_activités1 h3 {
+        width: 100%;
+        height: 20%;
+        margin: 0;
+    }
+
+    .lieu_activités2 h3 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .lieu_activités3 h3 {
         margin: 0;
     }
 
