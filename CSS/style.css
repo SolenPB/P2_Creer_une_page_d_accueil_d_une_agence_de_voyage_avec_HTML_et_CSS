@@ -680,7 +680,7 @@ input::placeholder{
 
 /*Activités*/
 
-#activités {
+.activités {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -764,18 +764,19 @@ footer {
     background-color: #F2F2F2;
     width: 92%;
     height: 225px;
-    margin: 3% 4% 0 4%;
+    margin: 3% 8% 0 4%;
 }
 
 footer ul {
     list-style: none;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
 
 footer li {
     display: flex;
-    width: 250px;
+    width: 100%;
     height: 31px;
 }
 
@@ -784,22 +785,22 @@ footer li {
     justify-content: space-between;
     width: 92%;
     height: 100%;
-    margin-right: 18%;
+    margin-right: 10%;
 }
 
 .a_propos {
     display: flex;
     flex-direction: column;
-    width: 17%;
-    margin-right: 3%;
+    width: 30%;
+    margin: 0 11% 0 4%;
     padding: 2% 0 0 7%;
 }
 
 .nos_hébergements {
     display: flex;
     flex-direction: column;
-    width: 17%;
-    margin-right: 6%;
+    width: 30%;
+    margin-right: 8%;
     padding-top: 2%;
 }
 
@@ -1221,48 +1222,58 @@ footer li {
 
 /*Activités*/
 
-    #activités {
+    .activités {
         width: 94%;
-        height: 70%;
+        height: 500px;
         margin: 2% 0 2% 5%;
     }
     
-    .titre_activités {
-        margin-bottom: 2%;
-    }
     .activités_ville {
         width: 100%;
-        height: 50%;
     }   
+
     .lien_activités {
-        margin-right: 1%;
+        height: 80%;
+        margin-right: 0.75%;
+    }
+
+    .lien_activités4 {
+        height: 80%;
     }
 
     .card_activités {
         display: flex;
         flex-wrap: wrap;
-        width: 85%;
-        height: 267px;      
+        width: 90%;
+        height: 100%;    
     }
 
     .photo_activités {
         object-fit: cover;
         width:  100%;
-        height: 80%;
+        height: 78%;
     }
 
     .lieu_activités1 h3 {
         width: 100%;
         height: 20%;
+        font-size: 16px;
         margin: 0;
     }
 
     .lieu_activités2 h3 {
         width: 100%;
+        font-size: 16px;
         margin: 0;
     }
 
     .lieu_activités3 h3 {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .lieu_activités4 h3 {
+        font-size: 16px;
         margin: 0;
     }
 
@@ -1271,9 +1282,9 @@ footer li {
     footer {
         display: flex;
         justify-content: space-around;
-        width: 879px;
+        width: 94%;
         height: 225px;
-        margin-left: 73px;
+        margin: 0 4% 0 4%;
     }
 
 }
