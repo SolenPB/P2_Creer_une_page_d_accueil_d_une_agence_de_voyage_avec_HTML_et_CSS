@@ -1078,7 +1078,7 @@ footer li {
         align-items: center;
         width: 95%;
         height: 10%;
-        margin: 4% 0 3% 5%
+        margin: 4% 0 3% 3.5%
     }
 
     .chart {
@@ -1120,15 +1120,15 @@ footer li {
 /*Photo des cards populaires*/
 
     .photo1 {
-        height: 94%;
+        height: 93.5%;
     }
 
     .photo2 {
-        height: 94%;
+        height: 93.5%;
     }
 
     .photo3 {
-        height: 94%;
+        height: 93.5%;
     }
 
 /*Description des cards populaires*/
@@ -1143,30 +1143,31 @@ footer li {
     }
 
     .nom_populaires1 h3{
-        width: 95%;
-        height: 15%;
+        width: 85%;
+        height: 75%;
         font-weight: 700;
         font-size: 14px;
         line-height: 18px;
-        margin-top: 4%;
+        margin: 4% 0 4% 0;
     }
 
     .nom_populaires2 h3 {
-        width: 85%;
-        height: 15%;
+        width: 80%;
+        height: 88%;
         font-weight: 700;
         font-size: 14px;
         line-height: 18px;
-        margin-top: 2%;
+        padding: 0;
+        margin-bottom: 4%;
     }
 
     .nom_populaires3 h3 {
         width: 85%;
-        height: 15%;
+        height: 85%;
         font-weight: 700;
         font-size: 14px;
         line-height: 18px;
-        margin-top: 3%;
+        margin: 3% 0 4% 0;
     }
 
 /*Boîte du titre de la card + le prix de la nuit*/
@@ -1175,9 +1176,10 @@ footer li {
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 50%;
+        height: 90%;
         font-size: 13px;
-        margin: 4% 0 15% 0;
+        margin: 4% 0 10% 0;
+        padding: 0;
     }
 
     .nom_prixpopulaires2 {
@@ -1186,7 +1188,7 @@ footer li {
         width: 100%;
         height: 70%;
         font-size: 13px;
-        margin-top: 4%;
+        margin-top: 2%;
     }
 
     .nom_prixpopulaires3 {
@@ -1195,7 +1197,7 @@ footer li {
         width: 100%;
         height: 60%;
         font-size: 13px;
-        margin-top: 4%;
+        margin-top: 2%;
     }
 
 /*Notes des cards populaires*/
@@ -1203,18 +1205,18 @@ footer li {
     .note_populaires1 {
         width: 70%;
         height: 10%;
-        padding: 15% 0 10% 2%;
+        padding: 17% 0 10% 2%;
     }
 
     .note_populaires2 {
         width: 70%;
         height: 10%;
-        padding-top: 2%;
+        padding: 0 0 5% 2%;
     }
     .note_populaires3 {
         width: 70%;
         height: 10%;
-        padding-top: 15%;
+        padding-top: 14%;
     }
 
 /*Activités*/
