@@ -1302,4 +1302,28 @@ footer li {
     }
 }
 
+@media screen and (max-width: 768px){
+
+    body {
+        min-width: 377px;
+        max-width: 768px;
+    }
+
+/*Header*/
+
+    nav {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+/*Barre de recherche pour portable*/
+
+    button {
+
+    }
+    
+}
 
