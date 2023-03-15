@@ -1333,7 +1333,7 @@ footer li {
         justify-content: flex-start;
         align-items: center;
         margin: 0;
-        margin: 10% 0 5% 0;
+        margin-top: 10%
     }
 
     .menu {
@@ -1357,15 +1357,27 @@ footer li {
 /* Titre de la page*/
 
     #titre_page {
+        width: 100%;
         margin-bottom: 10%;
+    }
+
+    #titre_page h1 {
+        font-size: 22px;
     }
 /*Barre de recherche pour portable*/
 
     #recherche {
-        justify-content: center;
+        justify-content: flex-start;
         margin: 0;
-        margin-bottom: 4%;
+        margin:0 0 4% 8%;
     }
+
+    .marker {
+        width: 80%;
+        font-size: 18px;
+        padding: 0 8% 0 8%;
+    }
+
     .rechercher {
         display: none;
     }
@@ -1375,21 +1387,18 @@ footer li {
     }
 
     button {
-        background-color: #0065FC;
-        border: 1px solid #0065FC;
-        border-radius: 0 15px 15px 0;
-        color: white;
-        font-size: 18px;
-        font-weight: 700;
         width: 70%;
         height: 50px;
-        position: relative;
-        top: 4%;
+        padding: 0 8% 0 8%;
     }
 
     #titre_page {
-        width: 100%;
+        width: 90%;
+        justify-content: center;
     }
+
+/*Barre de recherche responsive portable*/
+
 
 /* Filtres responsive portable*/
 
@@ -1438,6 +1447,7 @@ footer li {
 
     #hébergements_populaires {
         flex-wrap: wrap;
+        flex-direction: column-reverse;
         height: 80%;
     }
 
