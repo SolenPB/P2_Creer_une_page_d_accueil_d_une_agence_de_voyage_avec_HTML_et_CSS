@@ -1357,7 +1357,7 @@ footer li {
 /* Titre de la page*/
 
     #titre_page {
-        width: 100%;
+        width: 90%;
         margin-bottom: 10%;
     }
 
@@ -1390,11 +1390,6 @@ footer li {
         width: 70%;
         height: 50px;
         padding: 0 8% 0 8%;
-    }
-
-    #titre_page {
-        width: 90%;
-        justify-content: center;
     }
 
 /*Barre de recherche responsive portable*/
@@ -1438,9 +1433,22 @@ footer li {
 
 /*Infobar responsive portable*/
 
+    #infobar {
+        width: 97%;
+        margin: 3% 0 4% 0;
+    }
+    
     #infobar p {
+
         font-size: 16px;
         margin-left: 2%;
+        padding-top: 4%;
+    }
+
+    .vector {
+        border-radius: 80px;
+        padding: 1% 2.75% 1.5% 2.5%;
+        margin: 0 1% 2% 4% ;
     }
 
 /*Hébergements et les plus populaires responsive portable*/
