@@ -1436,13 +1436,38 @@ footer li {
         height: 40%;
     }
 
+    .card_populaires {
+        width: 90%;
+    }
+
+    .nom_prixpopulaires1 {
+        padding: 7% 0 0 8%;
+    }
+
+    .nom_prixpopulaires2 {
+        padding: 7% 0 0 5%;
+    }
+
+    .nom_prixpopulaires3 {
+        padding: 7% 0 0 8%;
+    }
+    
+    .note_populaires1 {
+        padding: 20% 0 5% 8%;
+    }
+
+    .note_populaires2 {
+        padding: 20% 0 5% 8%;
+    }
+
+    .note_populaires3 {
+        padding: 14% 0 0 8%;
+    }
+
+
 /*Hébergements responsive portable*/
 
     #hébergements {
-        width: 100%;
-    }
-
-    #populaires {
         width: 100%;
     }
 
