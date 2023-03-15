@@ -291,7 +291,7 @@ input::placeholder{
     border: 1px solid #F2F2F2;
     border-radius: 20px;
     width: 65%;
-    height: 100%;
+    height: 626px;
     margin-right: 3%;
     padding: 0;
 }
@@ -301,7 +301,7 @@ input::placeholder{
     justify-content: flex-start;
     flex-wrap: wrap;
     width: 100%;
-    height: 70%;
+    height: 450px;
 }
 
 /*Spécification du titre principal des hébergements*/
@@ -317,8 +317,8 @@ input::placeholder{
     justify-content: flex-start;
     box-sizing: content-box;
     width: 28%;
-    height: 46%;
-    margin: 0 3% 0 4%;
+    height: 199px;
+    margin: 0 3% 0 4.75%;
     padding: 0;
 }
 
@@ -327,7 +327,7 @@ input::placeholder{
     justify-content: flex-start;
     box-sizing: content-box;
     width: 28%;
-    height: 46%;
+    height: 199px;
     margin-right: 3%;
     padding: 0;
 }
@@ -337,7 +337,7 @@ input::placeholder{
     justify-content: flex-start;
     box-sizing: content-box;
     width: 28.2%;
-    height: 46%;
+    height: 199px;
     margin: 0;
     padding: 0;
 }
@@ -347,7 +347,7 @@ input::placeholder{
 .card_hébergements1 {
     background-color: white;
     width: 100%;
-    height: 100%;
+    height: 199px;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition:0.3s;
     border-radius: 20px;
@@ -355,7 +355,7 @@ input::placeholder{
 .card_hébergements2 {
     background-color: white;
     width: 100%;
-    height: 100%;
+    height: 199px;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition:0.3s;
     border-radius: 20px;
@@ -364,7 +364,7 @@ input::placeholder{
 .card_hébergements3 {
     background-color: white;
     width: 100%;
-    height: 100%;
+    height: 199px;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition:0.3s;
     border-radius: 20px;
@@ -373,7 +373,7 @@ input::placeholder{
 .card_hébergements4 {
     background-color: white;
     width: 100%;
-    height: 100%;
+    height: 199px;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition:0.3s;
     border-radius: 20px;
@@ -382,7 +382,7 @@ input::placeholder{
 .card_hébergements5 {
     background-color: white;
     width: 100%;
-    height: 100%;
+    height: 199px;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition:0.3s;
     border-radius: 20px;
@@ -391,7 +391,7 @@ input::placeholder{
 .card_hébergements6 {
     background-color: white;
     width: 100%;
-    height: 100%;
+    height: 199px;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition:0.3s;
     border-radius: 20px;
@@ -482,13 +482,14 @@ input::placeholder{
     border: 1px solid #F2F2F2;
     border-radius: 20px;
     width: 35%;
-    height: 100%;
+    height: 626px;
 }
 
 .top_pluspopulaires {
     width: 100%;
-    height: 82%;
+    height: 200px;
 }
+
 /*Titre principal de la section "populaires"*/
 
 .titre_populaires {
@@ -536,7 +537,6 @@ input::placeholder{
 .photo2 {
     object-fit: cover;
     width: 51%;
-    height: 93%;
     border: 5px solid white; 
     border-radius: 20px 0 0 20px;
 }
@@ -544,7 +544,6 @@ input::placeholder{
 .photo3 {
     object-fit: cover;
     width: 37%;
-    height: 93%;
     border: 5px solid white; 
     border-radius: 20px 0 0 20px;
 }
@@ -621,7 +620,6 @@ input::placeholder{
 
 .nom_prixpopulaires3 {
     width: 100%;
-    height: 50%;
     padding: 4% 0 5% 3%;
 }
 
@@ -683,7 +681,7 @@ input::placeholder{
     display: block;
     justify-content: flex-start;
     width: 23.8%;
-    height: 100%;
+    height: 444px;
     margin-right: 2.8%;
 }
 
@@ -691,7 +689,7 @@ input::placeholder{
     display: block;
     justify-content: flex-start;
     width: 23.8%;
-    height: 100%;
+    height: 444px;
 }
 
 /*Caractéristiques des cards*/
@@ -701,7 +699,7 @@ input::placeholder{
     flex-wrap: wrap;
     background-color: white;
     width: 98.25%;
-    height: 100%;
+    height: 444px;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 20px; 
@@ -712,7 +710,7 @@ input::placeholder{
 .photo_activités {
     object-fit: cover;
     width:  100%;
-    height: 85%;
+    height: 377px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -765,7 +763,7 @@ footer li {
     display: flex;
     justify-content: space-between;
     width: 92%;
-    height: 100%;
+    height: 225px;
     margin-right: 10%;
 }
 
@@ -952,7 +950,7 @@ footer li {
         flex-direction: column;
         margin-left: 5%;
         width: 91%;
-        height: 1000px;
+        height: 1050px;
     }
     
     #hébergements {
@@ -960,8 +958,7 @@ footer li {
         flex-wrap: wrap;
         justify-content: flex-start;
         width: 98%;
-        height: 70%;
-        margin-bottom: 4%;
+        height: 650px;
         padding: 0;
     }
 
@@ -986,30 +983,18 @@ footer li {
 
     .lien_hébergements1 {
         width: 28%;
-        height: 41%;
+        height: 199px;
     }
 
     .lien_hébergements2 {
         width: 28%;
-        height: 41%;
+        height: 199px;
     }
     
     .lien_hébergements3 {
         width: 28%;
-        height: 41%;
+        height: 199px;
         padding-right: 4%;
-    }
-
-/*Caractéristiques des cards hébergements*/
-
-    .card_hébergements1 {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-    }
-
-    .card_hébergements1 {
-        margin: 0;
     }
 
 /*Photos des cards hébergements version tablette*/
@@ -1051,8 +1036,7 @@ footer li {
         justify-content: flex-start;
         align-items: flex-start;
         width: 98%;
-        height: 90%;
-        margin-bottom: 6%;
+        height: 300px;
         padding: 0;
     }
 
@@ -1063,7 +1047,7 @@ footer li {
         justify-content: space-between;
         align-items: center;
         width: 95%;
-        height: 10%;
+        height: 29px;
         margin: 4% 0 3% 3.5%
     }
 
@@ -1077,8 +1061,6 @@ footer li {
         display: flex;
         flex-direction: row;
         width: 100%;
-        height: 70%;
-        padding-bottom: 2%;
     }
     
     .card_populaires {
@@ -1086,21 +1068,7 @@ footer li {
         width: 29%;
         height: 144px;
         margin: 0;
-        margin: 0 0 5% 3%;
-    }
-
-/*Photo des cards populaires*/
-
-    .photo1 {
-        height: 144px;
-    }
-
-    .photo2 {
-        height: 93.5%;
-    }
-
-    .photo3 {
-        height: 93.5%;
+        margin-left: 3%;
     }
 
 /*Description des cards populaires*/
@@ -1195,39 +1163,38 @@ footer li {
 
     .activités {
         width: 94%;
-        height: 500px;
+        height: 400px;
         margin: 2% 0 2% 5%;
     }
     
     .activités_ville {
         width: 100%;
+        height: 300px;
     }   
 
     .lien_activités {
-        height: 80%;
+        height: 267px;
         margin-right: 0.75%;
     }
 
     .lien_activités4 {
-        height: 80%;
+        height: 267px;
     }
 
     .card_activités {
         display: flex;
         flex-wrap: wrap;
         width: 90%;
-        height: 100%;    
+        height: 267px;    
     }
 
     .photo_activités {
         object-fit: cover;
         width:  100%;
-        height: 78%;
+        height: 202px;
     }
 
     .lieu_activités1 h3 {
-        width: 100%;
-        height: 20%;
         font-size: 16px;
         margin: 0;
     }
@@ -1285,31 +1252,30 @@ footer li {
     header {
         display: flex;
         width: 100%;
-        height: 80%;
+        height: 137px;
     }
 
     nav {
         width: 100%;
-        height: 80%;
+        height: 110px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         margin: 0;
-        margin-top: 10%
+        margin-top: 3%
     }
 
     .menu {
         width: 100%;
-        height: 80%;
+        height: 75px;
         margin: 5% 0 5% 0;
     }
 
     .menu_bouton {
         border-bottom: 2px solid white;
         width: 50%;
-        height: 100%;
-        padding-bottom: 5%;
+        height: 74px;
     }
 
     .menu_bouton:hover {
@@ -1418,18 +1384,18 @@ footer li {
 
     #hébergements_populaires {
         width: 100%;
-        height: 80%;
+        height: 1950px;
         flex-wrap: wrap;
         flex-direction: column-reverse;
-        margin: 0;        
+        justify-content: flex-end;        
     }
 
 /*Les hébergements les plus populaires responsive portable*/
 
     #populaires {
         width: 100%;
+        height: 600px;
         border-radius: 0;
-        margin-bottom: 5%;
     }
 
     #top_pluspopulaires {
@@ -1451,7 +1417,7 @@ footer li {
     .nom_prixpopulaires3 {
         padding: 7% 0 0 8%;
     }
-    
+
     .note_populaires1 {
         padding: 20% 0 5% 8%;
     }
@@ -1469,6 +1435,25 @@ footer li {
 
     #hébergements {
         width: 100%;
+        border-radius: 0;
+        border: 0;
+        background-color: white;
+    }
+
+    #logement {
+        flex-direction: column;
+    }
+
+    .lien_hébergements1 {
+        width: 80%;
+    }
+
+    .lien_hébergements2 {
+        width: 70%;
+    }
+
+    .lien_hébergements3 {
+        width: 80%;
     }
 
 /*Activités responsive portable*/
