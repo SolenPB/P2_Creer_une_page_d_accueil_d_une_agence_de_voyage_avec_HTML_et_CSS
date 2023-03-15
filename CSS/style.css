@@ -117,6 +117,10 @@ h1 {
     top: 2%;
 }
 
+.loupe {
+    display: none;
+}
+
 button {
     background-color: #0065FC;
     border: 1px solid #0065FC;
@@ -868,6 +872,10 @@ footer li {
         padding: 3.5% 1% 3.5% 1%;
     }
 
+    .loupe {
+        display: none;
+    }
+
     button {
         background-color: #0065FC;
         border: 1px solid #0065FC;
@@ -1311,19 +1319,201 @@ footer li {
 
 /*Header*/
 
+    header {
+        display: flex;
+        width: 100%;
+        height: 80%;
+    }
+
     nav {
-        width: 70%;
+        width: 100%;
+        height: 80%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+        margin: 0;
+        margin: 10% 0 5% 0;
     }
 
+    .menu {
+        width: 100%;
+        height: 80%;
+        margin: 5% 0 5% 0;
+    }
+
+    .menu_bouton {
+        border-bottom: 2px solid white;
+        width: 50%;
+        height: 100%;
+        padding-bottom: 5%;
+    }
+
+    .menu_bouton:hover {
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+    }
+
+/* Titre de la page*/
+
+    #titre_page {
+        margin-bottom: 10%;
+    }
 /*Barre de recherche pour portable*/
 
-    button {
-
+    #recherche {
+        justify-content: center;
+        margin: 0;
+        margin-bottom: 4%;
     }
-    
+    .rechercher {
+        display: none;
+    }
+
+    .loupe {
+        display: inline;
+    }
+
+    button {
+        background-color: #0065FC;
+        border: 1px solid #0065FC;
+        border-radius: 0 15px 15px 0;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        width: 70%;
+        height: 50px;
+        position: relative;
+        top: 4%;
+    }
+
+    #titre_page {
+        width: 100%;
+    }
+
+/* Filtres responsive portable*/
+
+    #filtres {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titre_filtres {
+        font-size: 18px;
+    }
+
+    .filtres_bouton {
+        flex-wrap: wrap;
+    }
+
+    #eco {
+        width: 40%;
+        font-size: 11px;
+    }
+
+    #famille {
+        width: 40%;
+        font-size: 11px;
+    }
+
+    #romantique {
+        width: 40%;
+        font-size: 11px;
+    }
+
+    #animaux {
+        width: 50%;
+        font-size: 11px;
+    }
+
+/*Infobar responsive portable*/
+
+    #infobar p {
+        font-size: 16px;
+        margin-left: 2%;
+    }
+
+/*Hébergements et les plus populaires responsive portable*/
+
+    #hébergements_populaires {
+        flex-wrap: wrap;
+        height: 80%;
+    }
+
+    #hébergements {
+        width: 100%;
+    }
+
+    #populaires {
+        width: 100%;
+    }
+
+/*Activités responsive portable*/
+
+    .activités {
+        width: 100%;
+        height: 90%;
+        margin-bottom: 5%;
+    }
+
+    .activités_ville {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .lien_activités {
+        width: 91%;
+        height: 190px;
+    }
+
+    .lien_activités4 {
+        width: 91%;
+        height: 190px;
+    }
+
+    .card_activités {
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+    }
+
+    .photo_activités {
+        height: 70%;
+    }
+
+/* Footer responsive portable*/
+
+    footer {
+        width: 100%;
+        height: 501px;
+        flex-wrap: wrap;
+    }
+
+    .navigation_footer {
+        flex-direction: column;
+    }
+
+    .a_propos {
+        width: 70%;
+        margin-left: 8%;
+        padding: 0;
+    }
+
+    .a_propos h3 {
+        margin-top: 15%;
+    }
+
+    .nos_hébergements {
+        width: 80%;
+        margin-left: 8%;
+        padding: 0;
+    }
+
+    .assistance {
+        width: 80%;
+        margin: 0 0 15% 8%;
+    }
 }
 
