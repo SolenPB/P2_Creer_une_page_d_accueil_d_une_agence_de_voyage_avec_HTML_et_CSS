@@ -1073,36 +1073,36 @@ footer li {
 }
 
 /*Responsive pour les téléphones portables*/
+
 @media screen and (max-width: 768px){
 
     body {
         min-width: 377px;
         max-width: 768px;
+        margin: 0;
     }
 
 /*Header*/
 
     header {
-        display: flex;
         width: 100%;
         height: 137px;
+        margin-top: 30px;
     }
 
     nav {
         width: 100%;
         height: 110px;
-        display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         margin: 0;
-        margin-top: 3%
     }
 
     .menu {
         width: 100%;
         height: 75px;
-        margin: 5% 0 5% 0;
+        margin: 19px 0 19px 0;
     }
 
     .menu_bouton {
@@ -1120,7 +1120,7 @@ footer li {
 
     #titre_page {
         width: 90%;
-        margin-bottom: 10%;
+        margin: 0 0 37px 25px;
     }
 
     #titre_page h1 {
@@ -1131,13 +1131,12 @@ footer li {
     #recherche {
         justify-content: flex-start;
         margin: 0;
-        margin:0 0 4% 8%;
+        margin:0 0 15px 20px;
     }
 
     .marker {
         width: 80%;
-        font-size: 18px;
-        padding: 0 8% 0 8%;
+        padding: 0 15px 0 15px;
     }
 
     .rechercher {
@@ -1151,7 +1150,7 @@ footer li {
     button {
         width: 70%;
         height: 50px;
-        padding: 0 8% 0 8%;
+        padding: 0 15px 0 15px;
     }
 
 /*Barre de recherche responsive portable*/
@@ -1161,8 +1160,8 @@ footer li {
 
     #filtres {
         width: 100%;
-        display: flex;
         flex-direction: column;
+        margin-left: 25px;
     }
 
     .titre_filtres {
@@ -1175,22 +1174,25 @@ footer li {
 
     #eco {
         width: 40%;
-        font-size: 11px;
+        font-size: 13px;
+        padding-right: 25px;
     }
 
     #famille {
         width: 40%;
-        font-size: 11px;
+        font-size: 13px;
+        padding-right: 15px;
     }
 
     #romantique {
         width: 40%;
-        font-size: 11px;
+        font-size: 13px;
+        padding-right: 23px;
     }
 
     #animaux {
         width: 50%;
-        font-size: 11px;
+        font-size: 12px;
     }
 
 /*Infobar responsive portable*/
@@ -1240,14 +1242,17 @@ footer li {
     }
 
     .nom_prixpopulaires1 {
+        height: 105px;
         padding: 7% 0 0 8%;
     }
 
     .nom_prixpopulaires2 {
+        height: 105px;
         padding: 7% 0 0 5%;
     }
 
     .nom_prixpopulaires3 {
+        height: 105px;
         padding: 7% 0 0 8%;
     }
 
@@ -1269,7 +1274,6 @@ footer li {
     #hébergements {
         display: flex;
         flex-direction: column;
-        align-items: center;
         border-radius: 0;
         border: 0;
         background-color: white;
@@ -1287,12 +1291,14 @@ footer li {
     }
 
     .titre_hébergements {
-        width: 90%;
-        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .titre_hébergements h2 {
+        margin: 30px 0 30px 26px;
     }
 
     .lien_hébergements1 {
-        margin: 0;
         margin: 0 0 12px 23px;
         width: 89%;
     }
@@ -1307,6 +1313,9 @@ footer li {
         width: 89%;
     }
 
+    .photo {
+        width: 97.25%;
+    }
     .plus {
         display: none;
     }
