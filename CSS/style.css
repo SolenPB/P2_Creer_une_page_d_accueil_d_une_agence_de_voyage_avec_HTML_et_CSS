@@ -317,9 +317,6 @@ input::placeholder{
 /*Boîtes des liens des cards*/
 
 .lien_hébergements1 {
-    display: flex;
-    justify-content: flex-start;
-    box-sizing: content-box;
     width: 28%;
     height: 199px;
     margin: 0 31px 30px 35px;
@@ -327,9 +324,6 @@ input::placeholder{
 }
 
 .lien_hébergements2 {
-    display: flex;
-    justify-content: flex-start;
-    box-sizing: content-box;
     width: 28%;
     height: 199px;
     margin-right: 31px;
@@ -337,9 +331,6 @@ input::placeholder{
 }
 
 .lien_hébergements3 {
-    display: flex;
-    justify-content: flex-start;
-    box-sizing: content-box;
     width: 28%;
     height: 199px;
     margin: 0;
@@ -741,8 +732,8 @@ footer li {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 94%;
-        margin-left: 5%;
+        width: 95%;
+        margin-left: 68px;
     }
 
     .menu {
@@ -762,28 +753,20 @@ footer li {
 
     #titre_page {
         width: 82%;
-        margin-left: 5%;
+        margin-left: 68px;
     }
 
 /*Barre de recherche*/
 
     #recherche {
-        display: flex;
-        align-items: center;
         width: 82%;
-        margin-left: 5%;
+        margin-left: 68px;
     }
 
     .marker {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #F2F2F2;
-        border: 1px solid #F2F2F2;
-        border-radius: 15px 0 0 15px;
         width: 8%;
         height: 16px;
-        padding: 3.5% 1% 3.5% 1%;
+        padding: 17px 10px 16px 10px;
     }
 
     .loupe {
@@ -791,34 +774,20 @@ footer li {
     }
 
     button {
-        background-color: #0065FC;
-        border: 1px solid #0065FC;
-        border-radius: 0 15px 15px 0;
-        color: white;
-        font-size: 18px;
-        font-weight: 700;
         width: 35%;
         height: 50px;
-        position: relative;
-        top: 4%;
     }
 
 /*Filtres*/
 
     #filtres {
-        display: flex;
-        justify-content: space-between;
-        width: 80%;
-        margin: 3% 10% 3% 5%;
+        width: 90%;
+        align-items: center;
+        margin: 50px 15px 35px 68px;
     }
 
     .titre_filtres {
-        margin-right: 3%;
-    }
-
-    .filtres_bouton {
-        display: flex;
-        align-items: center;
+        margin-right: 25px;
     }
 
     #eco:hover {
@@ -837,28 +806,44 @@ footer li {
         background-color: white;
     }
     
+    #eco {
+        width: 20%;
+    }
+
+    #famille {
+        width: 18%;
+    }
+
+    #romantique {
+        width: 20%;
+    }
+
+    #animaux {
+        width: 28%;
+    }
+
     .money {
-        padding:0 8% 0 2%;
-        width: 10%;
+        width: 15%;
         height: 16px;
+        padding:0 5px 0 2px;
     }
     
     .person {
-        padding: 0 8% 0 2%; 
         width: 10%;
         height: 22px;
+        padding: 0 10px 0 2px; 
     }
     
     .heart {
-        padding: 0 7% 0 4%;
         width: 10%;
         height: 18px;
+        padding: 0 10px 0 3px;
     }
     
     .dog {
-        padding: 0 3% 0 2%;
         width: 10%;
         height: 22px;
+        padding: 0 8px 0 3px;
     }
 
 /*Infobar*/
@@ -869,7 +854,7 @@ footer li {
         align-items: center;
         width: 80%;
         margin: 0;
-        margin: 0 0 5% 3%;
+        margin-left: 50px;
     }
 
     .vector {
@@ -884,7 +869,6 @@ footer li {
 /*Hébergements*/
 
     #hébergements_populaires {
-        display: flex;
         justify-content: space-around;
         flex-direction: column;
         width: 91%;
@@ -892,63 +876,25 @@ footer li {
     }
     
     #hébergements {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
         width: 98%;
         height: 650px;
         padding: 0;
     }
 
     #logements {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         width: 100%;
-        height: 70%;
+        height: 500px;
     }
 
+    .titre_hébergements h2 {
+        margin: 0;
+    }
     .titre_hébergements {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
         width: 50%;
-        margin: 2% 0 0 3%;
-        padding-left: 0.5%;
-    }
-
-/* Taille des boîtes des liens hébergements*/
-
-    .lien_hébergements1 {
-        width: 28%;
-        height: 199px;
-    }
-
-    .lien_hébergements2 {
-        width: 28%;
-        height: 199px;
-    }
-    
-    .lien_hébergements3 {
-        width: 28%;
-        height: 199px;
-        padding-right: 4%;
+        margin: 40px 0 35px 38px;
     }
 
 /*Photos des cards hébergements version tablette*/
-
-    .photo {
-        object-fit: cover;
-        width: 96%;
-        height: 60%;
-        border: 5px solid white;
-        border-radius: 20px 20px 0 0;
-    }
-    
-    .description_hébergements {
-        width: 100%;
-        margin-left: 5%;
-    }
 
     .nom_hébergements {
         width: 100%;
@@ -959,7 +905,7 @@ footer li {
     }
 
     .plus {
-        margin: 0 0 4% 6%;
+        margin: 15px 0 15px 50px;
     }
 
     .plus p {
