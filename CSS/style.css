@@ -1052,9 +1052,9 @@ footer li {
     footer {
         display: flex;
         justify-content: space-around;
-        width: 94%;
+        width: 89.75%;
         height: 225px;
-        margin: 0 4% 0 4%;
+        margin: 0 50px 0 50px;
     }
 
     .a_propos {
@@ -1072,6 +1072,7 @@ footer li {
     }
 }
 
+/*Responsive pour les téléphones portables*/
 @media screen and (max-width: 768px){
 
     body {
