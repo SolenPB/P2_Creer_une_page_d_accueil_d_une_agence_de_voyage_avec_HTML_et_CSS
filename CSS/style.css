@@ -658,10 +658,19 @@ input::placeholder{
     border-radius: 20px 20px 0 0;
 }
 
-/*Lieux des activités*/
+/*Nom des lieux d'activités*/
 
 .lieu_activités {
+    font-size: 15px;
     margin-left: 19px;
+}
+
+.lien_activités h3 {
+    margin: 0;
+}
+
+.lien_activités4 h3 {
+    margin: 0;
 }
 
 /*Activités*/
@@ -998,31 +1007,13 @@ footer li {
         width: 80%;
         padding-bottom: 18px;
     }
-/*Notes des cards populaires*/
-
-    .note_populaires1 {
-        width: 70%;
-        height: 10%;
-        padding: 17% 0 10% 2%;
-    }
-
-    .note_populaires2 {
-        width: 70%;
-        height: 10%;
-        padding: 0 0 5% 2%;
-    }
-    .note_populaires3 {
-        width: 70%;
-        height: 10%;
-        padding-top: 14%;
-    }
 
 /*Activités*/
 
     .activités {
         width: 94%;
         height: 400px;
-        margin: 2% 0 2% 5%;
+        margin: 25px 0 25px 50px;
     }
     
     .activités_ville {
@@ -1032,7 +1023,7 @@ footer li {
 
     .lien_activités {
         height: 267px;
-        margin-right: 0.75%;
+        margin-right: 8px;
     }
 
     .lien_activités4 {
@@ -1052,25 +1043,8 @@ footer li {
         height: 202px;
     }
 
-    .lieu_activités1 h3 {
-        font-size: 16px;
-        margin: 0;
-    }
-
-    .lieu_activités2 h3 {
-        width: 100%;
-        font-size: 16px;
-        margin: 0;
-    }
-
-    .lieu_activités3 h3 {
-        font-size: 16px;
-        margin: 0;
-    }
-
-    .lieu_activités4 h3 {
-        font-size: 16px;
-        margin: 0;
+    .lien_activités4 h3 {
+        width: 80%;
     }
 
 /*Footer*/
