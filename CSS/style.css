@@ -735,7 +735,7 @@ footer li {
 
 /*Responsive tablette*/
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
 
 /*Header*/
 
@@ -790,11 +790,12 @@ footer li {
 
     #filtres {
         width: 90%;
-        align-items: center;
+        justify-content: flex-start;
         margin: 50px 15px 35px 60px;
     }
 
     .titre_filtres {
+        justify-content: flex-start;
         margin-right: 25px;
     }
 
@@ -1227,7 +1228,7 @@ footer li {
 
     #infobar p {
         font-size: 16px;
-        margin-left: 10px;
+        margin: 9px 0 0 10px;
     }
 
     .vector {
