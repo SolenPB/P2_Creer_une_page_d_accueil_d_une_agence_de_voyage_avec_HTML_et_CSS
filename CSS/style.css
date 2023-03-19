@@ -4,7 +4,6 @@
 
 body
 {
-    min-width: 992px;
     max-width: 1400px;
     margin: 0;
 }
@@ -736,21 +735,18 @@ footer li {
 
 /*Responsive tablette*/
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 992px) {
 
 /*Header*/
 
     nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 95%;
-        margin-left: 68px;
+        width: 100%;
+        margin-left: 60px;
     }
 
     .menu {
-        justify-content: space-between;
         width: 38%;
+        margin-right: 58px;
     }
 
     .menu_bouton:hover {
@@ -765,14 +761,14 @@ footer li {
 
     #titre_page {
         width: 82%;
-        margin-left: 68px;
+        margin-left: 60px;
     }
 
 /*Barre de recherche*/
 
     #recherche {
         width: 82%;
-        margin-left: 68px;
+        margin-left: 60px;
     }
 
     .marker {
@@ -795,7 +791,7 @@ footer li {
     #filtres {
         width: 90%;
         align-items: center;
-        margin: 50px 15px 35px 68px;
+        margin: 50px 15px 35px 60px;
     }
 
     .titre_filtres {
@@ -832,6 +828,7 @@ footer li {
 
     #animaux {
         width: 28%;
+        margin-right: 20px;
     }
 
     .money {
@@ -1074,12 +1071,7 @@ footer li {
 
 /*Responsive pour les téléphones portables*/
 
-@media only screen and (max-device-width : 768px){
-
-    body {
-        min-width: 375px;
-        margin: 0;
-    }
+@media screen and (max-width : 768px){
 
 /*Header*/
 
@@ -1333,18 +1325,18 @@ footer li {
     }
 
     .lien_hébergements1 {
-        margin: 0 15px 12px 15px;
         width: 100%;
+        margin: 0 15px 12px 15px;
     }
 
     .lien_hébergements2 {
-        margin: 0 15px 12px 15px;
         width: 100%;
+        margin: 0 15px 12px 15px;
     }
 
     .lien_hébergements3 {
-        margin: 0 15px 12px 15px;
         width: 100%;
+        margin: 0 15px 12px 15px;
     }
 
     .photo {
