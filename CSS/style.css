@@ -736,7 +736,7 @@ footer li {
 
 /*Responsive tablette*/
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
 
 /*Header*/
 
@@ -1074,11 +1074,10 @@ footer li {
 
 /*Responsive pour les téléphones portables*/
 
-@media screen and (max-width: 768px){
+@media only screen and (max-device-width : 768px){
 
     body {
-        min-width: 377px;
-        max-width: 768px;
+        min-width: 375px;
         margin: 0;
     }
 
@@ -1172,14 +1171,14 @@ footer li {
     .filtres_bouton {
         width: 98%;
         flex-wrap: wrap;
-        justify-content: space-around;
         margin-left: 10px;
     }
 
     #eco {
+        justify-content: flex-start;
         width: 35%;
         font-size: 13px;
-        padding-right: 40px;
+        padding: 0 18px 0 10px;
         margin:0 8px 10px 0;
     }
 
@@ -1187,20 +1186,27 @@ footer li {
         justify-content: flex-start;
         width: 35%;
         font-size: 13px;
-        padding:0 15px 0 20px;
+        margin-right: 25px;
+        padding:0 20px 0 15px;
     }
 
     #romantique {
+        justify-content: flex-start;
         width: 35%;
         font-size: 13px;
-        padding-right: 40px;
+        padding:0 13px 0 12px;
     }
 
     #animaux {
         justify-content: flex-start;
-        width: 35%;
+        width: 38%;
         font-size: 12px;
-        padding: 0 20px 0 15px;
+        margin-right: 25px;
+        padding:0 15px 0 10px;
+    }
+
+    .person {
+        padding-right: 7px;
     }
 
     #eco:hover {
@@ -1222,21 +1228,21 @@ footer li {
 /*Infobar responsive portable*/
 
     #infobar {
-        width: 97%;
-        margin: 3% 0 4% 0;
+        width: 100%;
+        align-items: flex-start;
+        margin: 20px 0 20px 0;
     }
 
     #infobar p {
-
         font-size: 16px;
-        margin-left: 2%;
-        padding-top: 4%;
+        margin-left: 10px;
     }
 
     .vector {
         border-radius: 80px;
-        padding: 1% 2.75% 1.5% 2.5%;
-        margin: 0 1% 2% 4% ;
+        padding: 6px 10px;
+        margin: 0;
+        margin-left: 15px;
     }
 
 /*Hébergements et les plus populaires responsive portable*/
@@ -1261,35 +1267,39 @@ footer li {
         height: 600px;
     }
 
+    .titre_populaires {
+        margin-top: 20px;
+    }
+
     .card_populaires {
         width: 80%;
     }
 
     .nom_prixpopulaires1 {
         height: 105px;
-        padding: 7% 0 0 8%;
+        padding: 15px 0 0 15px;
     }
 
     .nom_prixpopulaires2 {
         height: 105px;
-        padding: 7% 0 0 5%;
+        padding: 15px 0 0 15px;
     }
 
     .nom_prixpopulaires3 {
         height: 105px;
-        padding: 7% 0 0 8%;
+        padding: 15px 0 0 15px;
     }
 
     .note_populaires1 {
-        padding: 20% 0 5% 8%;
+        padding: 30px 0 5px 10px;
     }
 
     .note_populaires2 {
-        padding: 20% 0 5% 8%;
+        padding: 30px 0 5px 10px;
     }
 
     .note_populaires3 {
-        padding: 14% 0 0 8%;
+        padding: 30px 0 0 10px;
     }
 
 
@@ -1340,6 +1350,7 @@ footer li {
     .photo {
         width: 97.25%;
     }
+
     .plus {
         display: none;
     }
