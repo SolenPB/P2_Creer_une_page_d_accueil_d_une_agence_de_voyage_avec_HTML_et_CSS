@@ -1333,22 +1333,22 @@ footer li {
     }
 
     .lien_hébergements1 {
-        margin: 0 0 12px 23px;
-        width: 89%;
+        margin: 0 15px 12px 15px;
+        width: 100%;
     }
 
     .lien_hébergements2 {
-        margin: 0 0 12px 23px;
-        width: 89%;
+        margin: 0 15px 12px 15px;
+        width: 100%;
     }
 
     .lien_hébergements3 {
-        margin: 0 0 12px 23px;
-        width: 89%;
+        margin: 0 15px 12px 15px;
+        width: 100%;
     }
 
     .photo {
-        width: 97.25%;
+        width: 97%;
     }
 
     .plus {
