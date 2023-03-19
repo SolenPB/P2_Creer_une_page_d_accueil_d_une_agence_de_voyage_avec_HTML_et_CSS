@@ -112,8 +112,6 @@ h1 {
     border: 1px solid #F2F2F2;
     height: 48px;
     padding:0 70px 0 17px;
-    position: relative;
-    top: 2%;
 }
 
 .loupe {
@@ -129,9 +127,7 @@ button {
     font-weight: 700;
     line-height: 21px;
     width: 20%;
-    height: 49px;
-    position: relative;
-    top: 4%;
+    height: 50px;
 }
 
 input::placeholder{
