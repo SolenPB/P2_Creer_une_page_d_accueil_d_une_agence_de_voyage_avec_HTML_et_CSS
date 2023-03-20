@@ -212,7 +212,7 @@ input::placeholder{
     background-color: #deebff;
 }
 
-.money {
+.billet {
     font-size: 18px;
     color:#0065FC;
     padding-right: 15px;
@@ -220,7 +220,7 @@ input::placeholder{
     height: 16px;
 }
 
-.person {
+.personne {
     font-size: 20px;
     color:#0065FC;
     padding-right: 15px; 
@@ -228,7 +228,7 @@ input::placeholder{
     height: 22px;
 }
 
-.heart {
+.coeur {
     font-size: 18px;
     color:#0065FC;
     padding-right: 12px;
@@ -236,7 +236,7 @@ input::placeholder{
     height: 18px;
 }
 
-.dog {
+.chien {
     font-size: 18px;
     color:#0065FC;
     padding-right: 10px;
@@ -836,25 +836,25 @@ footer li {
         margin-right: 20px;
     }
 
-    .money {
+    .billet {
         width: 15%;
         height: 16px;
         padding:0 5px 0 2px;
     }
     
-    .person {
+    .personne {
         width: 10%;
         height: 22px;
         padding: 0 10px 0 2px; 
     }
     
-    .heart {
+    .coeur {
         width: 10%;
         height: 18px;
         padding: 0 10px 0 3px;
     }
     
-    .dog {
+    .chien {
         width: 10%;
         height: 22px;
         padding: 0 8px 0 3px;
@@ -1212,7 +1212,7 @@ footer li {
         padding:0 15px 0 10px;
     }
 
-    .person {
+    .personne {
         padding-right: 7px;
     }
 
@@ -1369,7 +1369,8 @@ footer li {
     .activités {
         width: 100%;
         height: 828px;
-        margin: 10px 0 50px 0;
+        margin: 0;
+        margin-top: 50px;
     }
 
     .titre_activités {
