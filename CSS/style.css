@@ -586,7 +586,7 @@ input::placeholder{
     margin: 0;
 }
 
-.activités {
+#activités {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -1025,7 +1025,7 @@ footer li {
 
 /*Activités pour la version tablette*/
 
-    .activités {
+    #activités {
         width: 97%;
         height: 400px;
         margin: 0;
@@ -1366,7 +1366,7 @@ footer li {
 
 /*Activités pour les téléphones portables*/
 
-    .activités {
+    #activités {
         width: 100%;
         height: 828px;
         margin: 0;
