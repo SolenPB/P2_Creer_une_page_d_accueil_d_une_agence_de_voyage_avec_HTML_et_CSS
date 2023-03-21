@@ -1181,12 +1181,13 @@ footer li {
     #filtres {
         width: 100%;
         flex-direction: column;
+        align-items: flex-start;
         margin: 0;
     }
 
     .titre_filtres {
         font-size: 18px;
-        margin-left: 22px;
+        margin-left: 15px;
     }
 
     .filtres_bouton {
@@ -1207,7 +1208,7 @@ footer li {
         justify-content: flex-start;
         width: 35%;
         font-size: 13px;
-        margin-right: 25px;
+        margin: 0 25px 10px 0;
         padding:0 20px 0 15px;
     }
 
@@ -1386,9 +1387,9 @@ footer li {
     }
 
     .titre_activités {
-        font-size: 18px;
+        font-size: 16px;
         width: 50%;
-        margin-left: 22px;
+        margin:0 0 25px 22px;
     }
     .activités_ville {
         width: 100%;
