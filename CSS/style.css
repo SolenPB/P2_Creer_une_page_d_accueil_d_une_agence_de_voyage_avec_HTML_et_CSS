@@ -592,7 +592,7 @@ input::placeholder{
     justify-content: flex-start;
     width: 92%;
     height: 580px;
-    margin: 40px 0 0 50px;
+    margin: 40px 0 0 40px;
 }
 
 .activités_ville {
@@ -645,7 +645,7 @@ input::placeholder{
 
 .lieu_activités {
     font-size: 14px;
-    margin-left: 19px;
+    margin-left: 15px;
 }
 
 .lien_activités h3 {
@@ -876,8 +876,10 @@ footer li {
     #hébergements_populaires {
         justify-content: space-around;
         flex-direction: column;
-        width: 91%;
+        width: 95%;
         height: 1050px;
+        margin: 0;
+        margin-left: 35px;
     }
     
     #hébergements {
@@ -951,30 +953,23 @@ footer li {
     }
     
     .card_populaires {
-        width: 29%;
+        width: 30%;
         height: 140px;
         margin: 0;
-        margin-left: 5px;
-
     }
 
 /*Description des cards populaires pour la version tablette*/
 
     .description_populaires {
         width: 70%;
-        margin-left: 10px;
         padding: 0;
     }
 
 /*Boîte du titre de la card + le prix de la nuit pour la version tablette*/
 
     .nom_populaires {
-        width: 95%;
+        width: 90%;
         margin-right: 10px;
-    }
-
-    .nom_populaires h3 {
-        font-size: 14px;
     }
 
     .nom_prixpopulaires1 {
@@ -998,6 +993,31 @@ footer li {
         padding: 0;
     }
 
+    .nom_prixpopulaires1 h3 {
+        font-size: 14px;
+    }
+
+    .nom_prixpopulaires1 p {
+        font-size: 13px;
+    }
+
+    .nom_prixpopulaires2 h3 {
+        font-size: 14px;
+    }
+
+    .nom_prixpopulaires2 p {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+
+    .nom_prixpopulaires3 h3 {
+        font-size: 14px;
+    }
+
+    .nom_prixpopulaires3 p {
+        font-size: 13px;
+    }
+
     .note_populaires {
         padding: 0;
         padding-left: 5px;
@@ -1006,9 +1026,10 @@ footer li {
 /*Activités pour la version tablette*/
 
     .activités {
-        width: 94%;
+        width: 97%;
         height: 400px;
-        margin: 25px 0 25px 50px;
+        margin: 0;
+        margin-left: 35px;
     }
     
     .activités_ville {
@@ -1037,31 +1058,43 @@ footer li {
         height: 202px;
     }
 
-    .lien_activités4 h3 {
-        width: 80%;
+    .lieu_activités {
+        font-size: 12px;
     }
 
 /*Footer pour la version tablette*/
 
     footer {
         justify-content: space-around;
-        width: 89.75%;
+        width: 93%;
         height: 225px;
-        margin: 0 50px 0 50px;
+        margin: 0;
+        margin-left: 35px;
     }
 
     .a_propos {
-        width: 30%;
-        margin: 0 5% 0 10%
+        width: 35%;
+        margin: 0 5px 0 30px;
     }
 
+    .a_propos h3 {
+        font-size: 18px;
+    }
     .nos_hébergements {
         width: 30%;
         margin-right: 2%;
     }
 
+    .nos_hébergements h3 {
+        font-size: 18px;
+    }
+
     .assistance {
         margin-right: 12%;
+    }
+
+    .assistance h3 {
+        font-size: 18px;
     }
 }
 
