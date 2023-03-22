@@ -8,7 +8,7 @@ body
     margin: 0;
 }
 
-/*header*/
+/*header version desktop*/
 
 #logo {
     position: relative;
@@ -63,9 +63,9 @@ a:hover {
     color: #0065FC;
 }
 
-/*header*/
+/*header version desktop*/
 
-/*main*/
+/*main version desktop*/
 
 #titre_page {
     width: 92%;
@@ -80,7 +80,7 @@ h1 {
     margin: 0;
 }
 
-/*recherche*/
+/*Section de rechercher version desktop*/
 
 #recherche {
     display: flex;
@@ -139,9 +139,9 @@ input::placeholder{
     text-align: center;
 }
 
-/*Recherche*/
+/*Section de recherche version desktop*/
 
-/*Filtres*/
+/*Filtres version desktop*/
 
 #filtres {
     display: flex;
@@ -251,9 +251,9 @@ input::placeholder{
     height: 22px;
 }
 
-/*Filtres*/
+/*Filtres version desktop*/
 
-/*Infobar*/
+/*Infobar version desktop*/
 
 #infobar {
     display: flex;
@@ -277,9 +277,9 @@ input::placeholder{
     margin-right: 11px ;
 }
 
-/*Infobar*/
+/*Infobar version desktop*/
 
-/*Hébergements et Les plus populaires*/
+/*Hébergements et Les plus populaires version desktop*/
 
 #hébergements_populaires {
     display: flex;
@@ -289,9 +289,9 @@ input::placeholder{
     margin-left: 50px;
 }
 
-/*Hébergements et Les plus populaires*/
+/*Hébergements et Les plus populaires version desktop*/
 
-/*Hébergements*/
+/*Hébergements version desktop*/
 
 #hébergements {
     display: flex;
@@ -314,7 +314,7 @@ input::placeholder{
     height: 500px;
 }
 
-/*Spécification du titre principal des hébergements*/
+/*Spécification du titre principal des hébergements version desktop*/
 
 .titre_hébergements {
     display: flex;
@@ -329,7 +329,7 @@ input::placeholder{
     margin: 0;
 }
 
-/*Boîtes des liens des cards*/
+/*Boîtes des liens des cartes version desktop*/
 
 .lien_hébergements1 {
     width: 28%;
@@ -348,7 +348,7 @@ input::placeholder{
     height: 199px;
 }
 
-/*Les cards hébergements*/
+/*Les cartes hébergements version desktop*/
 
 .carte_hébergements {
     display: flex;
@@ -361,7 +361,7 @@ input::placeholder{
     border-radius: 20px;
 }
 
-/* Photo des cards hébergements*/
+/* Photo des cartes hébergements version desktop*/
 
 .photo {
     object-fit: cover;
@@ -371,7 +371,7 @@ input::placeholder{
     border-radius: 20px 20px 0 0;
 }
 
-/*Spécification des descriptions des cards hébergements*/
+/*Spécification des descriptions des cartes hébergements version desktop*/
 
 .description_hébergements {
     display: flex;
@@ -381,7 +381,7 @@ input::placeholder{
     margin: 5px 0 0 16px;
 }
 
-/*Spécification de la boîte du titre et prix des cards hébergements*/
+/*Spécification de la boîte du titre et prix des cartes hébergements version desktop*/
 
 .nom_prix {
     display: flex;
@@ -411,7 +411,7 @@ input::placeholder{
     padding: 0;
 }
 
-/*Spécification des notes*/
+/*Spécification des notes version desktop*/
 
 .note {
     display: flex;
@@ -439,9 +439,9 @@ input::placeholder{
     margin: 25px 50px;
 }
 
-/*Hébergements*/
+/*Hébergements version desktop*/
 
-/*Les plus populaires*/
+/*Les plus populaires version desktop*/
 
 #populaires {
     display: flex;
@@ -460,7 +460,7 @@ input::placeholder{
     height: 200px;
 }
 
-/*Titre principal de la section "populaires"*/
+/*Titre principal de la section "populaires" version desktop*/
 
 .titre_populaires {
     display: flex;
@@ -477,13 +477,13 @@ input::placeholder{
     margin: 0;
 }
 
-.chart {
+.graphique {
     color: #0065FC;
     padding-left: 8%;
     height: 15px;
 }
 
-/* Spécifications cards populaires*/
+/* Spécifications cartes populaires version desktop*/
 
 .carte_populaires {
     display: flex;
@@ -496,7 +496,7 @@ input::placeholder{
     margin: 0 0 25px 34px;
 }
 
-/* Spécifications des photos des cards populaires*/
+/* Spécifications des photos des cartes populaires version desktop*/
 
 .photo_populaires {
     object-fit: cover;
@@ -505,7 +505,7 @@ input::placeholder{
     border-radius: 20px 0 0 20px;
 }
 
-/* Spécifications de la description des cards populaires*/
+/* Spécifications de la description des cartes populaires version desktop*/
 
 .description_populaires {
     display: flex;
@@ -515,7 +515,7 @@ input::placeholder{
     padding-bottom: 10px;
 }
 
-/*Spécifications des titres des cards populaires*/
+/*Spécifications des titres des cartes populaires version desktop*/
 
 .nom_populaires {
     width: 91%;
@@ -530,7 +530,7 @@ input::placeholder{
 }
 
 
-/*Spécifications de la boîte du titre et du prix des cards populaires*/
+/*Spécifications de la boîte du titre et du prix des cartes populaires version desktop*/
 
 .nom_prixpopulaires1 {
     width: 85%;
@@ -565,16 +565,16 @@ input::placeholder{
     margin-top: 5px;
 }
 
-/*Spécification des notes des cards populaires*/
+/*Spécification des notes des cartes populaires version desktop*/
 
 .note_populaires {
     display: flex;
     padding-left: 15px;
 }
 
-/*Les plus populaires*/
+/*Les plus populaires version desktop*/
 
-/*Activités*/
+/*Activités version desktop*/
 
 .titre_activités {
     font-size: 17px;
@@ -602,7 +602,7 @@ input::placeholder{
     height: 444px;
 }
 
-/*Caractéristiques des liens*/
+/*Caractéristiques des liens d'activités version desktop*/
 
 .lien_activités {
     display: block;
@@ -619,7 +619,7 @@ input::placeholder{
     height: 444px;
 }
 
-/*Caractéristiques des cards*/
+/*Caractéristiques des cartes activités version desktop*/
 
 .carte_activités {
     display: flex;
@@ -632,7 +632,7 @@ input::placeholder{
     border-radius: 20px; 
 }
 
-/*Photos activités*/
+/*Photos activités version desktop*/
 
 .photo_activités {
     object-fit: cover;
@@ -641,7 +641,7 @@ input::placeholder{
     border-radius: 20px 20px 0 0;
 }
 
-/*Nom des lieux d'activités*/
+/*Nom des lieux d'activités version desktop*/
 
 .lieu_activités {
     font-size: 14px;
@@ -656,11 +656,11 @@ input::placeholder{
     margin: 0;
 }
 
-/*Activités*/
+/*Activités version desktop*/
 
-/*Main*/
+/*Main version desktop*/
 
-/*Footer*/
+/*Footer version desktop*/
 
 footer {
     background-color: #F2F2F2;
@@ -717,7 +717,7 @@ footer li {
     padding-top: 20px;
     margin-right: 110px;
 }
-/*Footer*/
+/*Footer version desktop*/
 
 /*media queries*/
 
@@ -941,7 +941,7 @@ footer li {
         margin: 30px 0 24px 17px;
     }
 
-    .chart {
+    .graphique {
         padding-right: 30px;
     }
 
